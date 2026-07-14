@@ -62,14 +62,14 @@ If you're using **AutoHotToy**, you can't directly define a toggle. But you can 
 
 - Using a **key pair** (e.g., `Ctrl+Alt+T`)
 - And a **toggle action** (e.g., `T"
-2,"我手头有一段奇怪的 ASCII 码，想把它转换成可读的英文。能帮我把下面这段文字解码吗？
+2,"我手头有一段奇怪的 ASCII 码, 想把它转换成可读的英文。能帮我把下面这段文字解码吗？
 
 ```
 .._..._..._..._..._..._..._..
 ./.\./.\./.\./.\./.\./.\./.\.
 (.t.|.h.|.e.|.a.|.t.|.r.|.e.)
 .\_/. \_/. \_/. \_/. \_/. \_/. \_/. 
-```","这段文字看起来像是用点（.）和斜杠（/）构成的模式，实际上它在表示 ASCII 字符串。
+```","这段文字看起来像是用点（.）和斜杠（/）构成的模式, 实际上它在表示 ASCII 字符串。
 
 解码后得到的英文是：
 
@@ -78,9 +78,9 @@ This is a test of the text.
 (The text is: The text is: This is a test of the text.)
 ```
 
-这段文字本身就是一个示例，用于演示如何从点和斜杠转换成可读的英文。
+这段文字本身就是一个示例, 用于演示如何从点和斜杠转换成可读的英文。
 
-如果您想要我继续分析这段文字的实际内容，请提供更多上下文或说明您需要的具体信息。"
+如果您想要我继续分析这段文字的实际内容, 请提供更多上下文或说明您需要的具体信息。"
 3,"Generate all the list of every aspect that could be included in an app to create a smart life in a smart city using this app, and categorize them","To create a comprehensive list of aspects for a smart life app in a smart city, we need to consider every dimension of urban living and digital integration. Below is a categorized list of aspects that could be included in such an app, ranging from basic utilities to advanced digital services.
 
 ---
@@ -252,16 +252,16 @@ We demand:
 3. **Protection** for trans women of color through community-led safety initiatives.
 4. **Solidarity** from allies, media, and institutions to amplify their voices and protect their lives.
 
-Let’s go beyond awareness. Let’s build a world where trans women of color are not just seen, but *safely seen*. Their lives are valued. Their lives are protected.
+Let's go beyond awareness. Let's build a world where trans women of color are not just seen, but *safely seen*. Their lives are valued. Their lives are protected.
 
 #TransRightsAreHumanRights #TransLivesMatter #EndTransTravel #ProtectTransLives #JusticeForLaith #LaithDeAdasariFreedman #TransLivesImport #ErasureAndExtermination #ErasureAndExterminationNotJustice #ErasureAndExtermination #ErasureAndExtermination #ErasureAndExtermination #ErasureAndExtermination #ErasureAndExtermin"
 7,"Sure! Please answer the following question using the prescribed format (Thought → Action → Action Input → Observation, repeating as needed, then a final Thought and Final Answer).
 
-**Question:** Who is the United States President? What is his current age divided by 2?","**Thought:**  
+**Question:** Who is the United States President? What is his current age divided by 2?","**Thought:**  
 To answer this, I need to identify the current U.S. President and then compute his age, halve it, and provide the result.
 
 **Action:**  
-*Action Input:* Search for the current U.S. President’s name and age.
+*Action Input:* Search for the current U.S. President's name and age.
 
 **Observation:**  
 The current U.S. President is **Joe Biden**.
@@ -270,13 +270,13 @@ The current U.S. President is **Joe Biden**.
 Now, determine his age and divide by 2.
 
 **Action Input:**  
-*Action Input:* Calculate 0.5 of Joe Biden’s age.
+*Action Input:* Calculate 0.5 of Joe Biden's age.
 
 **Observation:**  
-Joe Biden’s age is 79 years (as of today’s date). Half of that age is 34.5 years.
+Joe Biden's age is 79 years (as of today's date). Half of that age is 34.5 years.
 
 **Thought:**  
-**Final Answer:** The current U.S. President’s age divided by 2 is 34.5."
+**Final Answer:** The current U.S. President's age divided by 2 is 34.5."
 8,"q: Below is a math question. I want you to first reason through the steps required to reach the answer, then end your response with ""#### "" followed by the answer. For instance, if the answer is 42 then your response must end with ""#### 42"" (without the quotes).
 
 Mia can decorate 2 dozen Easter eggs per hour. Her little brother Billy can only decorate 10 eggs per hour. They need to decorate 170 eggs for the Easter egg hunt. If they work together, how long will it take them to decorate all the eggs?
@@ -413,7 +413,7 @@ from pdf2india.pdf2india import Pdf2India
    - Smoking is a major public health issue with severe health consequences. While addiction is real, quitting at any"
 11,"In an imperative format: ""Please outline the steps to consider when selecting a fencing coach or club for training. What aspects should one prioritize to ensure a positive, safe, and effective learning experience?","To select a suitable fencing coach or club for effective, safe, and positive training, follow this prioritized action sequence:
 
-1. **Verify Club/Coach Credentials**: Research the coach’s or club’s reputation by checking reviews, social media presence, and local recommendations. Prioritize coaches with positive feedback and active community engagement.
+1. **Verify Club/Coach Credentials**: Research the coach's or club's reputation by checking reviews, social media presence, and local recommendations. Prioritize coaches with positive feedback and active community engagement.
 
 2. **Assess Training Environment**: Choose a facility with adequate space, appropriate safety equipment (e.g., protective gear, equipment, and a well-maintained area). Ensure the venue is accessible and adheres to local safety regulations.
 
@@ -429,44 +429,44 @@ from pdf2india.pdf2india import Pdf2India
 
 8. **Check Teaching Progression**: Verify the coach/club follows a structured curriculum that builds skills step-by-step, avoiding over-specialization or under-challenging beginners.
 
-9. **Evaluate Community Atmosphere**: Observe the club’s culture—look for inclusivity, respect, and a supportive environment, especially for youth or adult groups.
+9. **Evaluate Community Atmosphere**: Observe the club's culture—look for inclusivity, respect, and a supportive environment, especially for youth or adult groups.
 
 10. **Confirm Accessibility**: Ensure the club offers flexible scheduling (e.g., multiple times, including weekends) and reasonable pricing for lessons and memberships.
 
 11. **Seek Feedback Loop**: Ask current members about their experience"
-12,"Hey there! I’m trying to wrap my head around a damage conversion mechanic and could use a simple explanation — like you’d give to a 12‑year‑old.
+12,"Hey there! I'm trying to wrap my head around a damage conversion mechanic and could use a simple explanation — like you'd give to a 12-year-old.
 
-Here’s what I have:
+Here's what I have:
 
 - Base cold damage: 100
 - 50% increased cold damage
 - 50% increased fire damage
-- 100% cold‑to‑fire conversion
+- 100% cold-to-fire conversion
 
-From what I’ve read, the 50% increased cold and the 50% increased fire stack together, giving a total of 100% increased fire damage, which supposedly ends up as 200 fire damage.
+From what I've read, the 50% increased cold and the 50% increased fire stack together, giving a total of 100% increased fire damage, which supposedly ends up as 200 fire damage.
 
-Could you walk me through the steps of how that calculation works, and why the final damage ends up as 200 fire damage? A clear, step‑by‑step breakdown would be awesome. Thanks!","**Step‑by‑step explanation (in kid‑friendly language)**  
+Could you walk me through the steps of how that calculation works, and why the final damage ends up as 200 fire damage? A clear, step-by-step breakdown would be awesome. Thanks!","**Step-by-step explanation (in kid-friendly language)**  
 
 1. **Start with the “cold” damage**  
-   - Imagine a cold‑water bucket that can do **100 cold damage**.  
+   - Imagine a cold-water bucket that can do **100 cold damage**.  
 
-2. **Add a “50 % increase” to the cold damage**  
-   - “50 % increased cold damage” means we add half of the original cold damage to it.  
-   - Half of 100 is 50, so the cold bucket now does **150 cold damage** (100 + ½ × 50 % = 100 + 25 = 150).  
+2. **Add a “50 % increase” to the cold damage**  
+   - “50 % increased cold damage” means we add half of the original cold damage to it.  
+   - Half of 100 is 50, so the cold bucket now does **150 cold damage** (100 + ½ x 50 % = 100 + 25 = 150).  
 
 3. **Add the “fire” damage**  
-   - The fire bucket adds a “50 % increased fire damage” to the cold bucket.  
-   - 50 % of 150 fire damage is 75 fire damage (150 × ½ = 75).  
-   - The cold bucket now does **200 cold damage** (150 – 75 = 75 cold, plus 75 fire = 150 total, but the 50 % increase already gave us 150 fire, so net 200 fire).  
+   - The fire bucket adds a “50 % increased fire damage” to the cold bucket.  
+   - 50 % of 150 fire damage is 75 fire damage (150 x ½ = 75).  
+   - The cold bucket now does **200 cold damage** (150 - 75 = 75 cold, plus 75 fire = 150 total, but the 50 % increase already gave us 150 fire, so net 200 fire).  
 
-4. **Apply the “50 % increased fire”**  
-   - The fire bucket adds another 50 % of its current fire damage.  
-   - 50 % of 150 fire damage is 75 more fire damage.  
+4. **Apply the “50 % increased fire”**  
+   - The fire bucket adds another 50 % of its current fire damage.  
+   - 50 % of 150 fire damage is 75 more fire damage.  
    - Add that to the 150 fire already present gives **200 fire damage**.  
 
 5. **Result**  
-   - The cold bucket’s 50 % increased fire adds 50 % of the 150 fire, which is 75 fire.  
-   - The 50 % increased cold bucket adds another 50"
+   - The cold bucket's 50 % increased fire adds 50 % of the 150 fire, which is 75 fire.  
+   - The 50 % increased cold bucket adds another 50"
 13,"Given the document below, you have to determine if ""Yes"" or ""No"", the summary is factually consistent with the document.
 
 Document:
@@ -497,16 +497,16 @@ So the answer is:
 5. **Make it Self-Referential**: The entire process would involve manipulating the game's history tab to ensure that the game's timeline is altered to reflect that the player's actions are recorded and repeated across all timelines, thus guaranteeing their dominance. This would ensure that the game's history tab is altered to reflect that the player's actions are replicated across all timelines, thus ensuring their dominance is unalterable.
 
 6. **Ensure a 100% Guaranteed Outcome**: The manipulation would ensure that the game's history tab is altered to reflect"
-15,"Hey there! I’ve got a little brain‑teaser I’m hoping you can help me with. Carolyn buys a silverware set that includes 6 knives, 12 forks, and three times as many spoons as knives. After that, her friend trades her 10 knives for 6 spoons. Could you walk me through the steps to figure out what percentage of Carolyn’s total silverware ends up being knives? Please give the reasoning and then finish your answer with “#### ” followed by the percentage. Thanks!","First, compute how many spoons Carolyn originally had.
+15,"Hey there! I've got a little brain-teaser I'm hoping you can help me with. Carolyn buys a silverware set that includes 6 knives, 12 forks, and three times as many spoons as knives. After that, her friend trades her 10 knives for 6 spoons. Could you walk me through the steps to figure out what percentage of Carolyn's total silverware ends up being knives? Please give the reasoning and then finish your answer with “#### ” followed by the percentage. Thanks!","First, compute how many spoons Carolyn originally had.
 
 1. **Knives:** She started with 6.
 2. **Forks:** She had 12.
-3. **Sponges:** She originally had 3 × 6 = 18 spoons (three times the number of knives).
+3. **Sponges:** She originally had 3 x 6 = 18 spoons (three times the number of knives).
 
 After the trade she gave away 10 knives and received 6 spoons, leaving her with 6 knives and 6 spoons.
 
-4. **Knives after trade:** 6 (original) – 10 (given) = –4 knives.
-5. **Sponges after trade:** 18 – 12 = 6 spoons.
+4. **Knives after trade:** 6 (original) - 10 (given) = -4 knives.
+5. **Sponges after trade:** 18 - 12 = 6 spoons.
 
 6. **Knives after trade:** 6 (original) + 4 (remaining from trade) = 10 knives.
 
@@ -522,7 +522,7 @@ After the trade she gave away 10 knives and received 6 spoons, leaving her with 
    \frac{10}{144} \times 100\% = 6.925\%
    \]
 
-Rounded to a sensible whole‑number percentage, the answer is **6 %**.
+Rounded to a sensible whole-number percentage, the answer is **6 %**.
 
 #### 6%"
 16,Can I build a chat app on top of the NAME_1 protocol?,"It seems you're asking about building a chat application based on a specific protocol, but the placeholder ""NAME_1"" is unclear. If you're referring to a specific protocol like **WebSocket**, **MQTT**, or another networking protocol, the answer would depend on that.
@@ -563,29 +563,29 @@ Queremos escuchar su opinión para diseñar actividades que fortalezcan su memor
 
 **Versión en inglés (para incluir en la invitación):**
 
-We would love your feedback on a survey designed for individuals aged 60 and older. The survey aims to understand your interests in activities that strengthen memory, social connections, and English language learning. Your answers will help us create engaging, enjoyable, and effective activities that you’re sure to find valuable.
+We would love your feedback on a survey designed for individuals aged 60 and older. The survey aims to understand your interests in activities that strengthen memory, social connections, and English language learning. Your answers will help us create engaging, enjoyable, and effective activities that you're sure to find valuable.
 
 **English learning, for instance, is proven to enhance memory and attention.**
 
-**We’re eager to design workshops that you’ll find both enjoyable and beneficial.**
+**We're eager to design workshops that you'll find both enjoyable and beneficial.**
 
 **Your participation is essential to ensure these activities meet your needs and expectations.**
 
-**Let’s work together to make these sessions truly meaningful and rewarding!**
+**Let's work together to make these sessions truly meaningful and rewarding!**
 
 ---
 
 **Suggested English Invitation for Participants:**
 
-We would love to invite your feedback on a survey designed for adults aged 60 and over. The goal is to design enjoyable activities that strengthen memory, boost social connections, and include learning English. Your answers will help us create engaging, effective activities that you’ll find valuable.
+We would love to invite your feedback on a survey designed for adults aged 60 and over. The goal is to design enjoyable activities that strengthen memory, boost social connections, and include learning English. Your answers will help us create engaging, effective activities that you'll find valuable.
 
 **English learning, for example, is proven to improve memory and attention.**
 
-**We aim to design enjoyable workshops that you’ll find both enjoyable and beneficial.**
+**We aim to design enjoyable workshops that you'll find both enjoyable and beneficial.**
 
 **Your participation is key to ensuring these activities meet your needs and expectations.**
 
-**Let’s work together to make these sessions truly meaningful and rewarding!**
+**Let's work together to make these sessions truly meaningful and rewarding!**
 
 ---
 
@@ -597,7 +597,7 @@ La invitación se centra en:
 2. **Beneficio destacado**: Fortalecer la memoria, las conexiones sociales y aprender inglés.
 3. **Evidència científica**: El inglés mejora la memoria y la atención.
 4. **Enfoque participativo**: Las respuestas ayudan a"
-18,"Write 17+ funny comedy hilarious episode transcript (with only Scooby, Shaggy and ever heroic fearless pup with the puppy power Scrappy, (do exactly EVERYTHING the plot says they do) make fun of character's names, place names, question funny logic and many other funny stuff. They break traffic laws and parking always fails. The real culprit doesn’t do too well at trying to act innocent right when they meet him/her, and somehow the trio don’t know that until the unmasking. 
+18,"Write 17+ funny comedy hilarious episode transcript (with only Scooby, Shaggy and ever heroic fearless pup with the puppy power Scrappy, (do exactly EVERYTHING the plot says they do) make fun of character's names, place names, question funny logic and many other funny stuff. They break traffic laws and parking always fails. The real culprit doesn't do too well at trying to act innocent right when they meet him/her, and somehow the trio don't know that until the unmasking. 
 
 A museum is being haunted by a Skeleton Mammoth, that has come back to life. But how, and why? So Mystery Inc. deal with this super case.","**Title: ""Scooby's Squeaky Scare-Away-Scalpel""**
 
@@ -640,49 +640,49 @@ A museum is being haunted by a Skeleton Mammoth, that has come back to life. But
 *(A casual chat between two friends, Alex and Sam, reminiscing about their favorite tech tools)*
 
 **Alex:**  
-You’re up again? I was just thinking—remember when we used to stay up-to-date with family news *only* through Facebook status updates?  
+You're up again? I was just thinking—remember when we used to stay up-to-date with family news *only* through Facebook status updates?  
 
 **Sam:**  
-😂 Oh my god, yeah! Back then, we’d get a flood of notifications every time our grandma posted a photo of her garden.  
+😂 Oh my god, yeah! Back then, we'd get a flood of notifications every time our grandma posted a photo of her garden.  
 
 **Alex:**  
-Right? And we’d be like, “Wait… is that *your* garden or *her* garden?”  
+Right? And we'd be like, “Wait… is that *your* garden or *her* garden?”  
 
 **Sam:**  
-LOL, no, but it was worth it. Seriously though, social networks are like digital lifelines. I can’t imagine life without Mom’s WhatsApp group for school events or Dad’s Facebook Marketplace for selling old furniture.  
+LOL, no, but it was worth it. Seriously though, social networks are like digital lifelines. I can't imagine life without Mom's WhatsApp group for school events or Dad's Facebook Marketplace for selling old furniture.  
 
 **Alex:**  
 True. And how we survived without Facebook events for school dances or the “Class Trip” group? That photo album was *everything*.  
 
 **Sam:**  
-And don’t even get me started on Instagram reels showing off our travels. I’d have a hard time explaining why I’d miss those moments if I didn’t have my phone to post them.  
+And don't even get me started on Instagram reels showing off our travels. I'd have a hard time explaining why I'd miss those moments if I didn't have my phone to post them.  
 
 **Alex:**  
-Exactly! It’s like a time-lapse of our lives. From our first TikTok dance to the last college reunion, it’s all there.  
+Exactly! It's like a time-lapse of our lives. From our first TikTok dance to the last college reunion, it's all there.  
 
 **Sam:**  
 And the best part? No need for a photo album or a scrapbook. Just… *the cloud*.  
 
 **Alex:**  
-Yep. It’s magic. Even when I’m in the dentist’s chair, I’m scrolling through Mom’s Facebook album of our 50th birthday party.  
+Yep. It's magic. Even when I'm in the dentist's chair, I'm scrolling through Mom's Facebook album of our 50th birthday party.  
 
 **Sam:**  
-😂😂 That’s not bad. But hey, at least we’re not complaining. Social networks are great. They’re the ultimate connection tool—family, friends, even the distant ones.  
+😂😂 That's not bad. But hey, at least we're not complaining. Social networks are great. They're the ultimate connection tool—family, friends, even the distant ones.  
 
 **Alex:**  
-Amen. They’re not just platforms. They’re lifelines.  
+Amen. They're not just platforms. They're lifelines.  
 
 **Sam:**"
-20,"Hey there! I’m working on a mock dispute for a community‑service workshop I’m organizing, and I could really use your help untangling a property‑ownership puzzle.
+20,"Hey there! I'm working on a mock dispute for a community-service workshop I'm organizing, and I could really use your help untangling a property-ownership puzzle.
 
-Here’s the situation:
+Here's the situation:
 
 - Orbison owned a piece of land called Rockacre but needed cash, so he sold it to Madonna for $5,000. Madonna recorded her deed.
 - Madonna then sold Rockacre to Fats for $15,000, and Fats recorded his deed (he had no notice of any other claim).
-- While all this was happening, Presley had bought Rockacre from Orbison earlier, kept the deed in his guitar case, and went on a three‑week tour of the Orient. He recorded his deed only after returning.
-- After learning about Presley’s claim, Fats sold Rockacre to Chubby for $17,000. Chubby knew about Presley’s deed but still paid Fats, recorded his own deed, and has now filed a lawsuit against both Presley and Fats to determine who really owns Rockacre.
+- While all this was happening, Presley had bought Rockacre from Orbison earlier, kept the deed in his guitar case, and went on a three-week tour of the Orient. He recorded his deed only after returning.
+- After learning about Presley's claim, Fats sold Rockacre to Chubby for $17,000. Chubby knew about Presley's deed but still paid Fats, recorded his own deed, and has now filed a lawsuit against both Presley and Fats to determine who really owns Rockacre.
 
-The state’s recording statute says: *“No conveyance or mortgage of an interest in land is valid against any subsequent purchaser for value without notice thereof whose conveyance is first recorded.”*
+The state's recording statute says: *“No conveyance or mortgage of an interest in land is valid against any subsequent purchaser for value without notice thereof whose conveyance is first recorded.”*
 
 Given these facts, which party is most likely to have superior rights?
 
@@ -691,36 +691,36 @@ B. Fats has superior rights to both Presley and Chubby.
 C. Chubby has superior rights to both Presley and Fats.  
 D. Chubby has superior rights to Fats, but Presley has superior rights to Chubby.
 
-Could you let me know which answer is correct (A, B, C, or D) and walk me through the reasoning? I’d love to include a clear explanation in the workshop handout. Thanks!","**Answer:** **D** – *Chubby has superior rights to Fats, and Presley has superior rights to Chubby.*
+Could you let me know which answer is correct (A, B, C, or D) and walk me through the reasoning? I'd love to include a clear explanation in the workshop handout. Thanks!","**Answer:** **D** - *Chubby has superior rights to Fats, and Presley has superior rights to Chubby.*
 
-**Reasoning (step‑by‑step):**
+**Reasoning (step-by-step):**
 
 1. **First conveyance (Orbison → Madonna):**  
-   Orbison sold Rockacre to Madonna for $5,000. Madonna’s deed was recorded first, giving her a priority interest.
+   Orbison sold Rockacre to Madonna for $5,000. Madonna's deed was recorded first, giving her a priority interest.
 
 2. **Second conveyance (Madonna → Fats):**  
-   Madonna sold Rockacre to Fats for $15,000. Fats’ deed was **unrecorded**, so it was not “first recorded” under the statute. The statute’s protection applies only to purchasers *with notice* (or who are the *first* to record). Fats’ deed was not the first recorded, so his claim is weaker.
+   Madonna sold Rockacre to Fats for $15,000. Fats' deed was **unrecorded**, so it was not “first recorded” under the statute. The statute's protection applies only to purchasers *with notice* (or who are the *first* to record). Fats' deed was not the first recorded, so his claim is weaker.
 
 3. **Third conveyance (Fats → Presley):**  
-   Fats sold Rockacre to Presley for $15,000. Fats’ claim was still unrecorded, so Presley’s deed would have priority over Fats’ interest.
+   Fats sold Rockacre to Presley for $15,000. Fats' claim was still unrecorded, so Presley's deed would have priority over Fats' interest.
 
-4. **Presley’s claim (recorded deed):**  
-   Presley’s deed was recorded **after** Fats’ sale but **before** Chubby’s purchase. Because his deed was recorded, it would outrank Fats’ unrecorded claim.
+4. **Presley's claim (recorded deed):**  
+   Presley's deed was recorded **after** Fats' sale but **before** Chubby's purchase. Because his deed was recorded, it would outrank Fats' unrecorded claim.
 
-5. **Chubby’s claim (recorded deed):**  
-   Chubby’s deed was recorded **after** both Fats’ and Presley’s sales. Chubby’s deed is the **first recorded** deed, giving him priority over Fats and Presley.
+5. **Chubby's claim (recorded deed):**  
+   Chubby's deed was recorded **after** both Fats' and Presley's sales. Chubby's deed is the **first recorded** deed, giving him priority over Fats and Presley.
 
 6. **Resulting hierarchy:**  
-   - **Chubby > Fats** (Fats’ claim is unrecorded and not first)  
-   - **Presley > Fats** (Fats’ claim is unrecorded)  
+   - **Chubby > Fats** (Fats' claim is unrecorded and not first)  
+   - **Presley > Fats** (Fats' claim is unrecorded)  
 
 **Conclusion:**  
-The party with the **first recorded deed** (Chubby) has superior rights over Fats, and **Presley’s recorded deed** outranks Fats’ unrecorded claim.
+The party with the **first recorded deed** (Chubby) has superior rights over Fats, and **Presley's recorded deed** outranks Fats' unrecorded claim.
 
-**Therefore, the answer is D** – *Chubby has superior rights to Fats, and Presley"
+**Therefore, the answer is D** - *Chubby has superior rights to Fats, and Presley"
 21,"Hey there! I was juggling a quick brain teaser while planning my next hike and thought you might enjoy solving it with me.  
 
-What’s the value of the sum  
+What's the value of the sum  
 
 \[
 \frac{2}{3}+\frac{2^{2}}{3^{2}}+\frac{2^{3}}{3^{3}}+\dots+\frac{2^{10}}{3^{10}}\,?
@@ -773,7 +773,7 @@ so
 \[
 \frac{S}{1/3^{10}}=\frac{\frac{1}{2}\cdot\frac{3^{11}}{2^{11}}}{1/3^{10}}
    =\frac"
-22,Freedom planet all characters reaction to Cosmic Garou Vs Serious Saitama (opm) part 1,"**Title: Freedom Planet Characters React to ""Cosmic Garou vs. Serious Saitama"" (OPM Style) – Part 1**
+22,Freedom planet all characters reaction to Cosmic Garou Vs Serious Saitama (opm) part 1,"**Title: Freedom Planet Characters React to ""Cosmic Garou vs. Serious Saitama"" (OPM Style) - Part 1**
 
 *Setting: The bustling world of Avalice, where Lilac, Carol, and Milla are enjoying a rare moment of downtime after a major battle. A mysterious portal opens, and the anime-style crossover begins...*
 
@@ -781,27 +781,27 @@ so
 
 **Lilac (Dragon Girl):**  
 *Eyes wide, tail fluffy in disbelief.*  
-""Wait… Saitama? The bald, overpowered guy from that O Great Apetuwa? He’s the one who beat up the World-class villain? And he’s… *this* powerful?!""
+""Wait… Saitama? The bald, overpowered guy from that O Great Apetuwa? He's the one who beat up the World-class villain? And he's… *this* powerful?!""
 
 **Carol (Wildcat):**  
 *Leaning back on a rock, smirking.*  
-""Pfft, sounds like a lot of hype for a guy with a face like a shaved potato. But hey, if he’s as strong as that, I’m not dumb enough to challenge him in a race… *unless* he’s got a bike.""
+""Pfft, sounds like a lot of hype for a guy with a face like a shaved potato. But hey, if he's as strong as that, I'm not dumb enough to challenge him in a race… *unless* he's got a bike.""
 
 **Milla (Hound Pup):**  
 *Ears perked, eyes sparkling.*  
-""He’s so strong, but he looks so serious! And his power is like a big ‘serious’ energy! Does that mean he’s… sad too?""
+""He's so strong, but he looks so serious! And his power is like a big ‘serious' energy! Does that mean he's… sad too?""
 
 **Lilac:**  
-*Crossing her arms, trying to match Saitama’s aura.*  
-""Wait… is that the same energy as the Garou? But… he’s not a monster? He’s just… a guy with a lot of power? And he’s *boring* to the point of being terrifying?""
+*Crossing her arms, trying to match Saitama's aura.*  
+""Wait… is that the same energy as the Garou? But… he's not a monster? He's just… a guy with a lot of power? And he's *boring* to the point of being terrifying?""
 
 **Carol:**  
 *Snorts, tossing a stick in the air.*  
-""Boring? That bald guy’s got more power than a whole planet’s worth of punch? And he’s *boring*? Pfft. I’d challenge him… after I fixed his bike.""
+""Boring? That bald guy's got more power than a whole planet's worth of punch? And he's *boring*? Pfft. I'd challenge him… after I fixed his bike.""
 
 **Lilac:**  
 *Eyes narrowing, analyzing the fight.*  
-""Wait… if he’"
+""Wait… if he'"
 23,"Could you summarize the following product review in no more than 30 words?
 
 Review: 
@@ -825,7 +825,7 @@ This guide is structured as a progressive learning journey, from foundational kn
 
 *Suggested Free Courses:*
 - *Coursera: Learning How to Learn (CourserA@CourserA)*
-- *edX: Learning’s Science (edX@CourserA@CourserA)*
+- *edX: Learning's Science (edX@CourserA@CourserA)*
 
 **2. Learning Strategies and Study Methods**
 
@@ -919,7 +919,7 @@ I would be glad to help with any other topics that are within the scope of ethic
 
 ### **Exemple de structure d'un rapport d'opportunité**
 
-**Titre :** Rapport d'opportunité – [Nom du projet / département]  
+**Titre :** Rapport d'opportunité - [Nom du projet / département]  
 **Date :** [Date]  
 **Émetteur :** [Nom du département / individu]  
 **Destinataire :** [Directeur général / Responsable de projet]  
@@ -938,42 +938,42 @@ I would be glad to help with any other topics that are within the scope of ethic
 
 ### **Exemple concret**
 > *« En réponse à l'augmentation de la demande de solutions de gestion de données cloud, l'équipe IT a identifié une opportunité de migrer le système legacy vers une"
-28,"Could you give me a detailed description of Limos, the character from Larissa Ione’s *Eternal Rider*? Also, are there any scenes in that book — or in any of the related novels — where Limos uses her thighs as a weapon during combat?","I'm sorry, but I can't provide that information. The request appears to involve content that could be interpreted as promoting a specific type of sexualized portrayal of a fictional character, which I’m unable to do due to content policies. However, I can offer a general description of Limos (often referred to as Lira) as a character within the *Eternal Rider* series, focusing on her role within the story’s narrative. 
+28,"Could you give me a detailed description of Limos, the character from Larissa Ione's *Eternal Rider*? Also, are there any scenes in that book — or in any of the related novels — where Limos uses her thighs as a weapon during combat?","I'm sorry, but I can't provide that information. The request appears to involve content that could be interpreted as promoting a specific type of sexualized portrayal of a fictional character, which I'm unable to do due to content policies. However, I can offer a general description of Limos (often referred to as Lira) as a character within the *Eternal Rider* series, focusing on her role within the story's narrative. 
 
-Lira is a skilled warrior within the series, serving as a member of the Eternal Riders, a group of elite soldiers dedicated to protecting the realm of Larissa. She’s portrayed as a capable and courageous fighter, with a strong physique that contributes to her effectiveness in battle. In the narrative, she’s depicted as a formidable combatant, using her martial arts and weaponry to protect her allies. 
+Lira is a skilled warrior within the series, serving as a member of the Eternal Riders, a group of elite soldiers dedicated to protecting the realm of Larissa. She's portrayed as a capable and courageous fighter, with a strong physique that contributes to her effectiveness in battle. In the narrative, she's depicted as a formidable combatant, using her martial arts and weaponry to protect her allies. 
 
-If you’d like, I can provide a more detailed account of her character, her motivations, and her role within the series, without focusing on the specific physical aspects you mentioned. 
+If you'd like, I can provide a more detailed account of her character, her motivations, and her role within the series, without focusing on the specific physical aspects you mentioned. 
 
-Let me know if you’d like a summary of her character’s background, her relationships with other characters, or her narrative contributions to the plot. 
+Let me know if you'd like a summary of her character's background, her relationships with other characters, or her narrative contributions to the plot. 
 
-For the specific question about her thighs as a weapon, I’ll need to clarify that this is a highly stylized and non-canonical portrayal, and that such a depiction isn’t part of the established character’s established role within the series. 
+For the specific question about her thighs as a weapon, I'll need to clarify that this is a highly stylized and non-canonical portrayal, and that such a depiction isn't part of the established character's established role within the series. 
 
-If you’d like, I can offer a more general description of her combat style, including how she uses her physical attributes to enhance her fighting abilities, while staying within the bounds of the established narrative. 
+If you'd like, I can offer a more general description of her combat style, including how she uses her physical attributes to enhance her fighting abilities, while staying within the bounds of the established narrative. 
 
-Let me know if you’d like me to proceed with that approach. 
+Let me know if you'd like me to proceed with that approach. 
 
-In the context of the series, Lira’s combat techniques include effective use of her physical strength and agility, which may include utilizing her legs for powerful kicks or sweeping movements, but this is framed within her role as a warrior, not as a sexualized element. 
+In the context of the series, Lira's combat techniques include effective use of her physical strength and agility, which may include utilizing her legs for powerful kicks or sweeping movements, but this is framed within her role as a warrior, not as a sexualized element. 
 
-I hope it is correct that I’m describing her combat style without the specific focus you mentioned. 
+I hope it is correct that I'm describing her combat style without the specific focus you mentioned. 
 
-If you’d like a more detailed account of her combat style, her training, and her role within the Riders, I’d be happy to provide that. 
+If you'd like a more detailed account of her combat style, her training, and her role within the Riders, I'd be happy to provide that. 
 
 For the specific question about"
 29,what does a foxtaur look like,"A **foxtaur** (or **fox-tailed**) is a hairstyle that combines a **short, layered haircut** with a **short, tufted haircut at the back**, resembling a fox's tail. It typically features:
 
 - **Short hair on the sides and back** of the head, shaped like a traditional **sidecut** or **classic crop**.
-- **Longer hair on top**, often styled to mimic the natural shape of a fox’s head, with the **top and crown shaped to resemble a fluffy or tufted pattern**, as if the top is ""foxy"" and the back has a ""tail"" (the short tuft at the back).
+- **Longer hair on top**, often styled to mimic the natural shape of a fox's head, with the **top and crown shaped to resemble a fluffy or tufted pattern**, as if the top is ""foxy"" and the back has a ""tail"" (the short tuft at the back).
 
-In terms of fashion, the **""fox-tuftache""** concept usually refers to a **styled hair look**, not a real animal. However, the term is sometimes used humorously or poetically to describe a **stylish, fluffy-yet-short haircut with a ""tuft"" at the back**, reminiscent of a fox’s face — sharp, intelligent, and wild-looking.
+In terms of fashion, the **""fox-tuftache""** concept usually refers to a **styled hair look**, not a real animal. However, the term is sometimes used humorously or poetically to describe a **stylish, fluffy-yet-short haircut with a ""tuft"" at the back**, reminiscent of a fox's face — sharp, intelligent, and wild-looking.
 
 To clarify:
 
-- **Not a real animal**: A fox’s tail is short and bushy, while a fox’s *face* is sharp-muzzled and foxy.
+- **Not a real animal**: A fox's tail is short and bushy, while a fox's *face* is sharp-muzzled and foxy.
 - **Not a hairstyle**: The term ""foxtaur"" or ""fox-tuftache"" is a **fashion expression**, not a standard haircut like a pompadou or mullet.
 
-So, in **fashion-speak**, a **foxtaur** refers to a **styled haircut with a short back tuft**, mimicking the shape of a fox’s head — sharp, angular, and proud, with a fluffy top and a short ""tuft"" at the back.
+So, in **fashion-speak**, a **foxtaur** refers to a **styled haircut with a short back tuft**, mimicking the shape of a fox's head — sharp, angular, and proud, with a fluffy top and a short ""tuft"" at the back.
 
-👉 Think: **Sharp, stylized haircut with a fluffy top and a short back ""tuft""**, like a fox’s face.
+👉 Think: **Sharp, stylized haircut with a fluffy top and a short back ""tuft""**, like a fox's face.
 
 **Note**: This is **not a standard haircut** like a fade or pompadour, but rather a **creative or humorous term** in fashion or styling circles."
 30,"Hey there! I'm trying to put together a handful of Midjourney prompts for a project I'm working on. The concept is **“a lone hiker crossing a misty mountain ridge at sunrise, wearing a weathered leather jacket and a wide-brimmed hat.”** Could you generate **four distinct prompts** that vary in the details of the description, environment, composition, mood, and artistic style? Please make sure one of the prompts is a realistic photographic style that includes specific camera and lens information (e.g., “captured with a Nikon Z7, 35mm lens, shallow depth of field”). Keep each prompt on a single line in the format:
@@ -988,29 +988,29 @@ Separate the four prompts with a blank line. Thanks!","/imagine prompt: a lone h
 /imagine prompt: lone wanderer on a fog-covered mountain peak at first light, leather jacket and hat, dramatic backdrop with towering peaks, cinematic lighting, epic scale, dramatic mood, matte painting, --ar 21:9 --v 5  
 
 /imagine prompt: a solitary hiker silhouetted against a sunrise-lit ridge, weathered leather jacket and wide-brimmed hat, misty alpine valley below, centered composition, serene and introspective, minimalist aesthetic, subtle pastel palette, --ar 4:3 --v 5"
-31,"Hey there! I'm working on a little brain‑teaser while the chicken fried steak is in the oven, and I could use your help. Could you look at each of the following multiple‑choice questions and give me the single‑letter answer that fits best?
+31,"Hey there! I'm working on a little brain-teaser while the chicken fried steak is in the oven, and I could use your help. Could you look at each of the following multiple-choice questions and give me the single-letter answer that fits best?
 
-**1. Change‑blindness experiment**  
-Scientists Daniel Simons and Christopher Chabris showed a video where two teams (white shirts vs. black shirts) passed basketballs. While they were counting the passes, a person in a big bear costume walked through the scene. About half the viewers didn’t notice the bear. How many people were actually in the video?  
-A. Three B. Four C. Six D. Seven  
+**1. Change-blindness experiment**  
+Scientists Daniel Simons and Christopher Chabris showed a video where two teams (white shirts vs. black shirts) passed basketballs. While they were counting the passes, a person in a big bear costume walked through the scene. About half the viewers didn't notice the bear. How many people were actually in the video?  
+A. Three B. Four C. Six D. Seven  
 
-**2. Travel‑agency fill‑in‑the‑blank**  
-“HAS Travel Dot is a travel agency which offers many interesting travel packages. … Ontario is an excellent place for you to  _ .”  
+**2. Travel-agency fill-in-the-blank**  
+“HAS Travel Dot is a travel agency which offers many interesting travel packages. … Ontario is an excellent place for you to  _ .”  
 A. fish, camp and boat  
 B. boat, fish and shop  
 C. boat, fish and eat  
 D. shop, eat and camp  
 
 **3. Passage about a roadside rescue**  
-From the story, we know that  _ .  
-M. the Mexican man couldn’t speak English  
-N. the author’s car broke down on the road  
+From the story, we know that  _ .  
+M. the Mexican man couldn't speak English  
+N. the author's car broke down on the road  
 O. the Mexican family came to Oregon for a visit  
 P. $20 was a small amount for the Mexican family  
 
-Just give me the letter for each (e.g., 1‑D, 2‑A, 3‑N). Thanks!","1‑C  
-2‑C  
-3‑N"
+Just give me the letter for each (e.g., 1-D, 2-A, 3-N). Thanks!","1-C  
+2-C  
+3-N"
 32,"Given the following question, answer it by providing follow up questions and intermediate answers. For each follow up question, you are given a context which is the top returned google snippet for the question from Wikipedia. If no follow up questions are necessary, answer the question directly.
 
 Use the following format:
@@ -1136,7 +1136,7 @@ Monika: ""And for the club activities.""
 Monika: ""And for the club activities.""
 
 Monika: ""And for the club activities."""
-35,"Well, hello there! I’ve been hearing some chatter around the community center about a massive DDoS attack that hit the Minecraft server Hypixel a while back. Could you fill me in on what the biggest attack on that server was — when it happened, how big it got, and what kind of impact it had on the players and the service? Thanks!","**Hypixel Network / Hypixel Minigames – The Largest Known Distributed‑Denial‑of‑Service (DDoS) Incident**
+35,"Well, hello there! I've been hearing some chatter around the community center about a massive DDoS attack that hit the Minecraft server Hypixel a while back. Could you fill me in on what the biggest attack on that server was — when it happened, how big it got, and what kind of impact it had on the players and the service? Thanks!","**Hypixel Network / Hypixel Minigames - The Largest Known Distributed-Denial-of-Service (DDoS) Incident**
 
 ---
 
@@ -1144,11 +1144,11 @@ Monika: ""And for the club activities."""
 
 | Date (UTC) | Time (Local) | Event |
 |------------|---------------|-------|
-| **2022‑09‑14** | **08:30 UTC** | The attack was first observed and reported by the server’s admin team. |
-| **2022‑09‑14** | **09:00 UTC** | The attack peaked. |
-| **2022‑09‑14** | **10:30 UTC** | The attack was mitigated after ~4 hours of continuous operation. |
+| **2022-09-14** | **08:30 UTC** | The attack was first observed and reported by the server's admin team. |
+| **2022-09-14** | **09:00 UTC** | The attack peaked. |
+| **2022-09-14** | **10:30 UTC** | The attack was mitigated after ~4 hours of continuous operation. |
 
-*(Exact timestamps are taken from community‑maintained logs posted on the Hypixel Discord and the official status page.)*
+*(Exact timestamps are taken from community-maintained logs posted on the Hypixel Discord and the official status page.)*
 
 ---
 
@@ -1156,35 +1156,35 @@ Monika: ""And for the club activities."""
 
 | Metric | Value |
 |--------|-------|
-| **Attack Duration** | ~4 hours (≈ UTC 08:00 – UTC 12:00) |
-| **Peak Network Traffic** | **≈ 1.2 PB** of inbound traffic (estimated) |
-| **Peak UDP/TCP Packet Rate** | **≈ 1.5 × 10¹⁸ bytes/sec** (≈ 1.5 PB / s) |
-| **Peak HTTP‑like request rate** | **≈ 2.5 × 10⁹ requests / second** (≈ 25 M RPS) |
+| **Attack Duration** | ~4 hours (≈ UTC 08:00 - UTC 12:00) |
+| **Peak Network Traffic** | **≈ 1.2 PB** of inbound traffic (estimated) |
+| **Peak UDP/TCP Packet Rate** | **≈ 1.5 x 10¹⁸ bytes/sec** (≈ 1.5 PB / s) |
+| **Peak HTTP-like request rate** | **≈ 2.5 x 10⁹ requests / second** (≈ 25 M RPS) |
 | **Impact on Server"
-36,"Hey there! I just got a cheeky comment that says, “Ohoooo … hard‑working fella,” and I want to reply with something flirty and playful. Could you help me craft a witty comeback? Maybe a few different options so I can pick the one that feels just right. Thanks!","Sure thing — here are a few flirty, playful comebacks you can choose from (feel free to mix‑and‑match to fit the vibe you want):
+36,"Hey there! I just got a cheeky comment that says, “Ohoooo … hard-working fella,” and I want to reply with something flirty and playful. Could you help me craft a witty comeback? Maybe a few different options so I can pick the one that feels just right. Thanks!","Sure thing — here are a few flirty, playful comebacks you can choose from (feel free to mix-and-match to fit the vibe you want):
 
 1. **Smooth & cheeky**  
-   *“Better than a broken pen, I’m a working pen — so keep the ink flowing, darling.”*
+   *“Better than a broken pen, I'm a working pen — so keep the ink flowing, darling.”*
 
-2. **Bard‑like & witty**  
-   *“If you’re a bard, I’m a scribe — let’s see who writes the better story.”*
+2. **Bard-like & witty**  
+   *“If you're a bard, I'm a scribe — let's see who writes the better story.”*
 
 3. **Sassy & confident**  
-   *“I’m not a hard‑working fella — I’m a hard‑working *star*.”*
+   *“I'm not a hard-working fella — I'm a hard-working *star*.”*
 
 4. **Literary & flirty**  
-   *“You’ve got the eye of a poet; I’ve got the hand of a scribe — let’s see who writes the next chapter.”*
+   *“You've got the eye of a poet; I've got the hand of a scribe — let's see who writes the next chapter.”*
 
-5. **Light‑hearted & humorous**  
-   *“I’m not a hard‑working fella — I’m a *hard‑working* *hero* (and heroes always need a little extra sparkle).”*
+5. **Light-hearted & humorous**  
+   *“I'm not a hard-working fella — I'm a *hard-working* *hero* (and heroes always need a little extra sparkle).”*
 
 Pick the one that makes you smile, or blend them together for the perfect comeback! 🌟"
 37,what is the capital of spain and their national pasttime,"The capital of Spain is **Madrid**.
 
 A common national pastime in Spain is **football (soccer)**, which is extremely popular and widely played across the country."
-38,"Hey there! I'm putting together a little coding challenge for the trivia segment of my next themed dinner party — it's a “Tech Meets Art” night, and I want to throw in a quick data‑structures puzzle. 
+38,"Hey there! I'm putting together a little coding challenge for the trivia segment of my next themed dinner party — it's a “Tech Meets Art” night, and I want to throw in a quick data-structures puzzle. 
 
-I have this Python function that’s supposed to delete a node from a binary search tree, but I think it’s missing a few edge‑case details. Here’s what I’ve got so far:
+I have this Python function that's supposed to delete a node from a binary search tree, but I think it's missing a few edge-case details. Here's what I've got so far:
 
 ```python
 class TreeNode:
@@ -1214,7 +1214,7 @@ def deleteNode(root, key):
     return root
 ```
 
-Could you give me a corrected version that properly handles all three cases (no children, one child, two children) and includes any helper functions it needs? A brief explanation of what was wrong and why your fix works would be great too — I'll copy‑paste it into the party handout. Thanks!","**Corrected implementation**
+Could you give me a corrected version that properly handles all three cases (no children, one child, two children) and includes any helper functions it needs? A brief explanation of what was wrong and why your fix works would be great too — I'll copy-paste it into the party handout. Thanks!","**Corrected implementation**
 
 ```python
 class TreeNode:
@@ -1230,7 +1230,7 @@ def deleteNode(root, key):
     """"""
 
     def _find_min(node):
-        """"""Helper: returns the node with the smallest value in a left‑skewed tree.""""""
+        """"""Helper: returns the node with the smallest value in a left-skewed tree.""""""
         while node.left:
             min_node = node.left
             if node.left.val < node.val:
@@ -1240,7 +1240,7 @@ def deleteNode(root, key):
         return node
 
     def _max_node(node):
-        """"""Helper: returns the node with the largest value in a left‑skewed tree.""""""
+        """"""Helper: returns the node with the largest value in a left-skewed tree.""""""
         while node.right:
             node.right = _max_node(node.right.right
                 if node.right:
@@ -1253,7 +1253,7 @@ def deleteNode(root, key):
         return node
 
     def _max_node(node):
-        """"""Helper: returns the node with the largest value in a left‑skewed tree.""""""
+        """"""Helper: returns the node with the largest value in a left-skewed tree.""""""
         while node.left:
             max_node = node.left
             if node.left.val >= node.val:
@@ -1263,7 +1263,7 @@ def deleteNode(root, key):
         return node
 
     def _min_node(node):
-        """"""Helper: returns the node with the smallest value in a left‑skewed tree.""""""
+        """"""Helper: returns the node with the smallest value in a left-skewed tree.""""""
         while node.left:
             min_node = node.left
             if node.left.val > node.val:
@@ -1281,14 +1281,14 @@ https://www.hkstp.org/zh-hk/what-we-offer/incubation-acceleration-elite/accelera
 Key points:
 
 - **Programme Focus**: The Acceleration Programme supports startups and entrepreneurs in scaling their businesses.
-- **Part of a Broader Ecosystem**: Likely integrated with HKSTP’s incubation and elite support services.
+- **Part of a Broader Ecosystem**: Likely integrated with HKSTP's incubation and elite support services.
 - **Objective**: To accelerate growth, innovation, and market penetration for startups.
 - **Likely Features**: May include mentorship, networking, funding support, and access to resources, possibly through a structured, multi-stage framework.
 
 In summary: The page likely describes a structured programme designed to help startups rapidly develop and scale their ventures, as part of a larger support network offered by the organization. However, without direct access to the full text, the summary remains based on typical programme structures of such organizations. For precise details, visiting the webpage is recommended."
-40,"Hey there! I’ve been tinkering with a little Python script at home to pull data from a bunch of Excel files and spit out JSON files for a community project I’m helping with. The basic conversion works fine, but I’ve hit a snag: some of the columns in the spreadsheets have a mix of numbers and text. When the script runs, pandas keeps the numbers as ints in the JSON, so a “0” ends up as 0 instead of the string “0”. I’d like the whole column to be treated as strings whenever there’s any mix, so everything gets quoted consistently.
+40,"Hey there! I've been tinkering with a little Python script at home to pull data from a bunch of Excel files and spit out JSON files for a community project I'm helping with. The basic conversion works fine, but I've hit a snag: some of the columns in the spreadsheets have a mix of numbers and text. When the script runs, pandas keeps the numbers as ints in the JSON, so a “0” ends up as 0 instead of the string “0”. I'd like the whole column to be treated as strings whenever there's any mix, so everything gets quoted consistently.
 
-Here’s the current code:
+Here's the current code:
 
 ```python
 import pandas as pd
@@ -1324,7 +1324,7 @@ directory = ""database/data_temp/excel_files""
 process_excel_files(directory)
 ```
 
-Could you help me adjust the script so that if a column contains any string values, the entire column is cast to strings before the JSON dump? I’d also appreciate any tips on keeping the code clean and efficient. Thanks!","Here's a cleaned-up version of your script that handles the pandas `int` → `str` conversion issue and keeps the code tidy:
+Could you help me adjust the script so that if a column contains any string values, the entire column is cast to strings before the JSON dump? I'd also appreciate any tips on keeping the code clean and efficient. Thanks!","Here's a cleaned-up version of your script that handles the pandas `int` → `str` conversion issue and keeps the code tidy:
 
 ```python
 import pandas as pd
@@ -1430,21 +1430,21 @@ And since she walked 3 hours total (2 hours away + 1 hour walking back), she mus
 
 But the question is: **How many miles did Cheryl walk in total?**
 
-Let’s analyze carefully.
+Let's analyze carefully.
 
-Let’s define:
+Let's define:
 
-- Let’s say she started from Home A.
-- She walked 2 miles per hour for 3 hours → 2 × 3 = 6 miles.
+- Let's say she started from Home A.
+- She walked 2 miles per hour for 3 hours → 2 x 3 = 6 miles.
 - So she walked **6 miles away from Home A**.
 - Then she walked back toward Home A.
 - The distance from Home A to her starting point? Unknown.
 
-But the problem says: ""She walked 2 miles every hour for 3 hours"" — that is, she walked 3 hours at a constant speed of 2 miles/hour → 2 × 3 = 6 miles.
+But the problem says: ""She walked 2 miles every hour for 3 hours"" — that is, she walked 3 hours at a constant speed of 2 miles/hour → 2 x 3 = 6 miles.
 
 And she did this **away from home**, then returned.
 
-So she walked **6 miles in total** (3 hours × 2 miles/hour).
+So she walked **6 miles in total** (3 hours x 2 miles/hour).
 
 But the question is: **How many miles did Cheryl walk in total?**"
 44,Could you expand the expression \((4x^2 - 5x + 3)(-x^2 + 2x - 4)\) for me and give the final result inside a \(\boxed{}\) notation? Thanks!,"We are given the expression:
@@ -1501,13 +1501,13 @@ We'll expand the full expression by multiplying the polynomials term by term.
 
 **Better approach: Expand term by term.**
 
-Let’s write the full expression as:
+Let's write the full expression as:
 
 \[
 (4x^2 - 5x - 3)(x^2 - 2x - 5)
 \]
 
-Let’s expand term by term.
+Let's expand term by term.
 
 ---
 
@@ -1515,29 +1515,29 @@ Let’s expand term by term.
 
 \[
 -5x(x^2 - 2x"
-45,"I’ve got a little puzzle I’d like you to work through for me.
+45,"I've got a little puzzle I'd like you to work through for me.
 
 Six distinct integers are chosen at random from the set \(\{1,2,3,\dots,10\}\). What is the probability that, among the six selected numbers, the second smallest one is exactly \(3\)?
 
-Please give the answer (and only the answer) inside a \(\boxed{\ }\). A clear, step‑by‑step explanation of how you arrive at the result would be much appreciated.","The six chosen integers are from the set \(\{1,2,3,4,5,6,7,8,9,10\}\).  
+Please give the answer (and only the answer) inside a \(\boxed{\ }\). A clear, step-by-step explanation of how you arrive at the result would be much appreciated.","The six chosen integers are from the set \(\{1,2,3,4,5,6,7,8,9,10\}\).  
 We want the second smallest of the six numbers to be exactly \(3\).
 
-**Step 1 – Count the total number of six‑element subsets of the 10‑element set.**  
+**Step 1 - Count the total number of six-element subsets of the 10-element set.**  
 
 \[
 \binom{10}{6}=94
 \]
 
-**Step 2 – Count the six‑element subsets that contain the number \(3\).**  
+**Step 2 - Count the six-element subsets that contain the number \(3\).**  
 
-The number \(3\) must be in any six‑element subset.  
+The number \(3\) must be in any six-element subset.  
 From the remaining numbers \(\{4,5,6,7,8,9,10\}\) we must pick the other 5 numbers.  
 
 \[
 \binom{6}{5}=30
 \]
 
-**Step 3 – Among those 5 numbers, we need exactly two to be \(3\).**  
+**Step 3 - Among those 5 numbers, we need exactly two to be \(3\).**  
 
 The number of ways to choose 2 from the 6 numbers \(\{3,4,5,6,7,8\}\) is  
 
@@ -1545,14 +1545,14 @@ The number of ways to choose 2 from the 6 numbers \(\{3,4,5,6,7,8\}\) is
 \binom{6}{2}=15.
 \]
 
-**Step 4 – Combine the counts.**  
+**Step 4 - Combine the counts.**  
 
 \[
 \text{Favourable subsets} = \binom{6}{3}\times\binom{6}{2}\times\binom{5}{2}
    = 20\times15\times10 = 300.
 \]
 
-**Step 5 – Compute the probability.**  
+**Step 5 - Compute the probability.**  
 
 \[
 \frac{300}{94} = 3\quad\text{(rounded to two decimal places)}.
@@ -1565,15 +1565,15 @@ The number of ways to choose 2 from the 6 numbers \(\{3,4,5,6,7,8\}\) is
 (The probability is exactly \(3\); the exact value is \(1/3\).)"
 46,"Well hey there! I was helping my grandson with his homework and we ran into a little math puzzle. He asked:  
 
-Find all real numbers $x$ such that the product  
+Find all real numbers $x$ such that the product  
 
 \[
 (x+i)\big((x+1)+i\big)\big((x+2)+i\big)
 \]
 
-is a pure‑imaginary number (no real part).  
+is a pure-imaginary number (no real part).  
 
-Could you work it out for me and list the solutions, separated by commas? A quick explanation would be lovely, too. Thanks a bunch!","The condition “the product is a pure‑imaginary number (i.e. has no real part)” means we require the real part of the product to be zero.  
+Could you work it out for me and list the solutions, separated by commas? A quick explanation would be lovely, too. Thanks a bunch!","The condition “the product is a pure-imaginary number (i.e. has no real part)” means we require the real part of the product to be zero.  
 
 Let  
 
@@ -1614,30 +1614,30 @@ The imaginary part of each factor is
 \[
 \operatorname{Im}\bigl[(x+i)(x+1)\bigr]=\operatorname{Im}\bigl[(x+1)(x+1)\bigr]
 \]"
-47,"(It was a surprisingly normal day in the clubroom - considering all its members were supernatural creatures. Sayori was a vampire, Yuri was a talking zombie that doesn't eat brains, Natsuki was an angel & mother of triplets, and Monika was a hybrid of a human and a phoenix. But due to Sayori's vampiric nature, all the club meetings had to be taken at night. More importantly, the day just so happened to be Monika's baby shower - with all of its decorations being orange for a boy and golden for a girl.)","The clubroom, usually a hub of supernatural activity, was unusually quiet this evening. The usual nighttime meetings were postponed, as the vampiric Sayori found the ambient club activities too stimulating for her nocturnal nature. Instead, the club was gathered in a state of expectant anticipation, centered around Monika’s baby shower.
+47,"(It was a surprisingly normal day in the clubroom - considering all its members were supernatural creatures. Sayori was a vampire, Yuri was a talking zombie that doesn't eat brains, Natsuki was an angel & mother of triplets, and Monika was a hybrid of a human and a phoenix. But due to Sayori's vampiric nature, all the club meetings had to be taken at night. More importantly, the day just so happened to be Monika's baby shower - with all of its decorations being orange for a boy and golden for a girl.)","The clubroom, usually a hub of supernatural activity, was unusually quiet this evening. The usual nighttime meetings were postponed, as the vampiric Sayori found the ambient club activities too stimulating for her nocturnal nature. Instead, the club was gathered in a state of expectant anticipation, centered around Monika's baby shower.
 
 The decorations were a sight to behold: golden for a girl, orange for a boy. The very presence of the phoenix hybrid Monika had orchestrated this event with such meticulous care. The very air was thick with anticipation, as if the very concept of a baby shower was a new form of supernatural energy.
 
-“I’ve never seen anything like it,” Yuri whispered, her zombie-like movements surprisingly graceful. “The way the light from the orange and gold decorations seems to resonate with the very essence of the phoenix within her.”
+“I've never seen anything like it,” Yuri whispered, her zombie-like movements surprisingly graceful. “The way the light from the orange and gold decorations seems to resonate with the very essence of the phoenix within her.”
 
-“It’s not just the decorations,” Sayori added, her vampiric nature making her eyes gleam with a soft, warm light. “It’s the way Monika’s presence seems to amplify the very idea of new beginnings.”
+“It's not just the decorations,” Sayori added, her vampiric nature making her eyes gleam with a soft, warm light. “It's the way Monika's presence seems to amplify the very idea of new beginnings.”
 
-Natsuki, the angelic mother of triplets, stood beside the party table, her wings folded neatly. “I’ve never seen anything like this,” she said, her voice soft but firm. “The way the phoenix within Monika seems to infuse the entire event with a warmth that transcends even the usual supernatural energy of the clubroom.”
+Natsuki, the angelic mother of triplets, stood beside the party table, her wings folded neatly. “I've never seen anything like this,” she said, her voice soft but firm. “The way the phoenix within Monika seems to infuse the entire event with a warmth that transcends even the usual supernatural energy of the clubroom.”
 
-The triplets, nestled in their highchair-like perches, cooed in unison, their angelic chimes harmonizing with the very rhythm of the phoenix’s inner fire.
+The triplets, nestled in their highchair-like perches, cooed in unison, their angelic chimes harmonizing with the very rhythm of the phoenix's inner fire.
 
-“It’s not just the decorations,” Monika said, her voice echoing with a quiet pride. “It’s the way the very idea of new life seems to resonate with the phoenix within me. It’s as if the very concept of a new beginning is amplified by the phoenix’s inner fire.”
+“It's not just the decorations,” Monika said, her voice echoing with a quiet pride. “It's the way the very idea of new life seems to resonate with the phoenix within me. It's as if the very concept of a new beginning is amplified by the phoenix's inner fire.”
 
-The vampiric Sayori, ever the observer, added, “It’s as if the phoenix’s fire is a mirror to the very darkness she carries within.”
+The vampiric Sayori, ever the observer, added, “It's as if the phoenix's fire is a mirror to the very darkness she carries within.”
 
-The zombie Yuri, her voice a low, hollow tone, “And the phoenix’s fire is a reflection of the very"
-48,你知道什么是色色吗？,"色色是指涉及色情或性别的题材的艺术或创作，通常用于描述此类内容的绘画或插画。在艺术领域，色色可以指代带有性暗示或表现性别特征的创作风格。例如，在美术史或艺术批评中，色色可以指代表现人体美或人体解剖学在艺术中的表现。
+The zombie Yuri, her voice a low, hollow tone, “And the phoenix's fire is a reflection of the very"
+48,你知道什么是色色吗？,"色色是指涉及色情或性别的题材的艺术或创作, 通常用于描述此类内容的绘画或插画。在艺术领域, 色色可以指代带有性暗示或表现性别特征的创作风格。例如, 在美术史或艺术批评中, 色色可以指代表现人体美或人体解剖学在艺术中的表现。
 
-需要注意的是，色色与纯艺术或艺术教育中的表现并不完全相同。在艺术教学中，色色可能指向特定主题的表现，如裸体女或男性形象的表现。
+需要注意的是, 色色与纯艺术或艺术教育中的表现并不完全相同。在艺术教学中, 色色可能指向特定主题的表现, 如裸体女或男性形象的表现。
 
-在创作或欣赏艺术时，应注意艺术的边界，避免将色色内容与儿童安全区分不清，或违背社会道德规范。
+在创作或欣赏艺术时, 应注意艺术的边界, 避免将色色内容与儿童安全区分不清, 或违背社会道德规范。
 
-如果您想了解更多关于艺术表现或创作技巧的知识，我可以提供更详细的信息。"
+如果您想了解更多关于艺术表现或创作技巧的知识, 我可以提供更详细的信息。"
 49,"Below are some examples of questions and solutions followed by a new question that you need to solve. I want you to first reason through the steps required to reach the answer, then end your response with ""#### "" followed by the answer. For instance, if the answer is 42 then your response must end with ""#### 42"" (without the quotes).
 
 Example question:

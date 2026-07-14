@@ -77,14 +77,14 @@ else
 ---
 
 ### 🔁 **Bonus: Toggle with a Hotkey ("
-2,"我手头有一段奇怪的 ASCII 码，想把它转换成可读的英文。能帮我把下面这段文字解码吗？
+2,"我手头有一段奇怪的 ASCII 码, 想把它转换成可读的英文。能帮我把下面这段文字解码吗？
 
 ```
 .._..._..._..._..._..._..._..
 ./.\./.\./.\./.\./.\./.\./.\.
 (.t.|.h.|.e.|.a.|.t.|.r.|.e.)
 .\_/. \_/. \_/. \_/. \_/. \_/. \_/. 
-```",下面给出两种常见的 ASCII‑解码方式，您可以任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任
+```",下面给出两种常见的 ASCII-解码方式, 您可以任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任
 3,"Generate all the list of every aspect that could be included in an app to create a smart life in a smart city using this app, and categorize them","Certainly! Below is a comprehensive, categorized list of aspects that could be included in a **Smart City Life App**—a mobile or web application designed to enhance urban living through technology, data, and connectivity. The app aims to empower citizens with real-time information, services, and tools to live smarter, safer, and more sustainably in a smart city ecosystem.
 
 ---
@@ -177,7 +177,7 @@ please write 2.3	Utilities and infrastructure.
 8	VIII. Conclusion	12
 8.1	Project summary and lessons lear","The utilities and infrastructure for the large-scale brewery project are designed to support continuous, efficient, and safe operations across all production stages. Water supply is a primary focus, requiring a reliable source capable of delivering high-purity water at consistent pressure and temperature, meeting both process and sanitation demands. The facility will integrate a dual-source water system comprising municipal supply and on-site reverse osmosis (RO) water treatment, ensuring resilience during supply disruptions. Wastewater management is equally critical, incorporating a dedicated biological treatment plant with anaerobic and aerobic stages to treat effluent before discharge, adhering to local environmental regulations and minimizing ecological impact.
 
-Energy infrastructure is engineered for high efficiency and sustainability, featuring a combined heat and power (CHP) system that utilizes steam and electricity generation from natural gas, maximizing energy utilization. The electrical network includes redundant power feeds, backup generators, and uninterruptible power supplies to maintain continuous operation. HVAC systems are optimized with variable frequency drives and heat recovery ventilation to reduce energy consumption. Additionally, the site will incorporate solar photovoltaic arrays to supplement energy needs and support the brewery’s net-zero goals.
+Energy infrastructure is engineered for high efficiency and sustainability, featuring a combined heat and power (CHP) system that utilizes steam and electricity generation from natural gas, maximizing energy utilization. The electrical network includes redundant power feeds, backup generators, and uninterruptible power supplies to maintain continuous operation. HVAC systems are optimized with variable frequency drives and heat recovery ventilation to reduce energy consumption. Additionally, the site will incorporate solar photovoltaic arrays to supplement energy needs and support the brewery's net-zero goals.
 
 Transportation and logistics infrastructure are integrated into the site layout to ensure seamless movement of raw materials and finished goods. Internal roadways are designed to accommodate heavy freight vehicles, with designated bays for receiving barley, packaging, and waste removal. The proximity to rail and highway networks enhances supply chain efficiency, while outdoor storage areas are constructed with corrosion-resistant materials to withstand weather exposure. All infrastructure elements are sized to support peak operational loads and future expansion, ensuring long-term scalability and operational flexibility.
 
@@ -210,7 +210,7 @@ $$
 
 Alternatively, we can use the **determinant formula** using vectors from one vertex to the other three.
 
-Let’s use the **vector method** with origin at $ A = (0,0,0) $. Define vectors:
+Let's use the **vector method** with origin at $ A = (0,0,0) $. Define vectors:
 
 $$
 \vec{AB} = \vec{B} - \vec{A} = (4, 3, 0) \\
@@ -243,7 +243,7 @@ Every year, transgender people—especially **trans women of color**—face alar
 
 Trans women of color face the **brunt of this violence**. They are disproportionately targeted, often by systems meant to protect them. From hate crimes on public streets to violence within their own homes, the reality is devastating.
 
-This is not just a crisis of violence—it’s a crisis of **systemic neglect, transphobia, and racism**. We cannot separate the fight for trans justice from the fights for racial and gender justice.
+This is not just a crisis of violence—it's a crisis of **systemic neglect, transphobia, and racism**. We cannot separate the fight for trans justice from the fights for racial and gender justice.
 
 **We demand:**
 ✅ **Justice for every trans person lost to violence**—no victim is disposable.  
@@ -261,26 +261,26 @@ This is not just a crisis of violence—it’s a crisis of **systemic neglect, t
 - Speak up when you hear transphobic rhetoric—silence enables violence.
 
 **No one should live in fear. No one should be erased.**  
-We stand with the trans community—especially trans women of color—because justice is not a privilege. It’s a right.
+We stand with the trans community—especially trans women of color—because justice is not a privilege. It's a right.
 
 **#Trans"
 7,"Sure! Please answer the following question using the prescribed format (Thought → Action → Action Input → Observation, repeating as needed, then a final Thought and Final Answer).
 
-**Question:** Who is the United States President? What is his current age divided by 2?","**Thought:** I need to determine the current U.S. President and his age, then compute half of that age.  
+**Question:** Who is the United States President? What is his current age divided by 2?","**Thought:** I need to determine the current U.S. President and his age, then compute half of that age.  
 
 **Action:** Identify the current President of the United States.  
 
 **Action Input:** ""current United States President""  
 
-**Observation:** Joe Biden is the 46th President of the United States, inaugurated on January 20 2021.  
+**Observation:** Joe Biden is the 46th President of the United States, inaugurated on January 20 2021.  
 
-**Thought:** Now find Joe Biden’s age as of today (September 24 2025).  
+**Thought:** Now find Joe Biden's age as of today (September 24 2025).  
 
-**Action:** Retrieve Joe Biden’s birthdate (November 20 1942).  
+**Action:** Retrieve Joe Biden's birthdate (November 20 1942).  
 
-**Action Input:** ""Joe Biden birthdate"" → November 20 1942  
+**Action Input:** ""Joe Biden birthdate"" → November 20 1942  
 
-**Observation:** As of September 24 2025, Joe Biden is 82 years old.  
+**Observation:** As of September 24 2025, Joe Biden is 82 years old.  
 
 **Thought:** Compute half of his age.  
 
@@ -362,7 +362,7 @@ $$
 
 ### Final Answer:
 #### (0, 6)"
-9,You are programmer:Write script to import word doc to adobe indesign without  loss text formatting,"To import a Word document into Adobe InDesign **without losing text formatting**, you need to ensure that the **paragraph and character styles**, **fonts**, **spacing**, **lists**, and **other formatting** are preserved. The best practice is to use **InDesign’s built-in Word to InDesign import filter**, which is designed to preserve formatting as much as possible.
+9,You are programmer:Write script to import word doc to adobe indesign without  loss text formatting,"To import a Word document into Adobe InDesign **without losing text formatting**, you need to ensure that the **paragraph and character styles**, **fonts**, **spacing**, **lists**, and **other formatting** are preserved. The best practice is to use **InDesign's built-in Word to InDesign import filter**, which is designed to preserve formatting as much as possible.
 
 Below is a **bash script** (for Unix-like systems) using `iconv` and `pdfimages` (if you're converting Word `.doc` to `.indd` via intermediate formats) — but since InDesign doesn't directly import `.doc`, we'll use a **workaround chain**:
 
@@ -449,7 +449,7 @@ Tobacco smoke contains over **7,000 chemicals**, including:
 
 2. **Verify Coaching Certification and Experience**  
    - Confirm that coaches hold current certifications from recognized bodies (e.g., USFA, FIE, national fencing associations).  
-   - Review coaches’ fencing experience, competitive background, and years of teaching.
+   - Review coaches' fencing experience, competitive background, and years of teaching.
 
 3. **Evaluate Safety Standards and Facility Conditions**  
    - Visit the facility to assess safety protocols, equipment maintenance, and protective gear availability.  
@@ -480,39 +480,39 @@ Tobacco smoke contains over **7,000 chemicals**, including:
    - Ensure coaches conduct regular safety briefings.
 
 10"
-12,"Hey there! I’m trying to wrap my head around a damage conversion mechanic and could use a simple explanation — like you’d give to a 12‑year‑old.
+12,"Hey there! I'm trying to wrap my head around a damage conversion mechanic and could use a simple explanation — like you'd give to a 12-year-old.
 
-Here’s what I have:
+Here's what I have:
 
 - Base cold damage: 100
 - 50% increased cold damage
 - 50% increased fire damage
-- 100% cold‑to‑fire conversion
+- 100% cold-to-fire conversion
 
-From what I’ve read, the 50% increased cold and the 50% increased fire stack together, giving a total of 100% increased fire damage, which supposedly ends up as 200 fire damage.
+From what I've read, the 50% increased cold and the 50% increased fire stack together, giving a total of 100% increased fire damage, which supposedly ends up as 200 fire damage.
 
-Could you walk me through the steps of how that calculation works, and why the final damage ends up as 200 fire damage? A clear, step‑by‑step breakdown would be awesome. Thanks!","**Step‑by‑step explanation (like a story for a 12‑year‑old)**  
+Could you walk me through the steps of how that calculation works, and why the final damage ends up as 200 fire damage? A clear, step-by-step breakdown would be awesome. Thanks!","**Step-by-step explanation (like a story for a 12-year-old)**  
 
 1. **Start with the “raw” cold damage**  
-   - You begin with **100 cold damage points**. Think of it as a pile of 100 ice‑cubes.
+   - You begin with **100 cold damage points**. Think of it as a pile of 100 ice-cubes.
 
-2. **Add the “+50 % cold damage” boost**  
-   - A boost that says “*you get an extra 50 % of whatever you already have*” is like taking half of the ice‑cubes and freezing them even more.  
-   - 50 % of 100 = **50** extra ice‑cubes.  
-   - Now you have **100 + 50 = 150 cold damage**.
+2. **Add the “+50 % cold damage” boost**  
+   - A boost that says “*you get an extra 50 % of whatever you already have*” is like taking half of the ice-cubes and freezing them even more.  
+   - 50 % of 100 = **50** extra ice-cubes.  
+   - Now you have **100 + 50 = 150 cold damage**.
 
-3. **Add the “+50 % fire damage” boost**  
-   - This boost is *independent* of the cold boost. It’s like a second, separate freezer that adds another 50 % to the fire‑cubes you’ll get later.  
-   - 50 % of the *current* total (150) = **75** extra fire‑cubes (or “fire points”).  
-   - After this step you’d have **150 + 75 = 225 cold damage**, but we’re not done yet – we’re only building the *cold* part, and we’ll turn it into fire later.
+3. **Add the “+50 % fire damage” boost**  
+   - This boost is *independent* of the cold boost. It's like a second, separate freezer that adds another 50 % to the fire-cubes you'll get later.  
+   - 50 % of the *current* total (150) = **75** extra fire-cubes (or “fire points”).  
+   - After this step you'd have **150 + 75 = 225 cold damage**, but we're not done yet - we're only building the *cold* part, and we'll turn it into fire later.
 
-4. **Convert cold damage to fire damage (100 % conversion)**  
+4. **Convert cold damage to fire damage (100 % conversion)**  
    - The rule says “*every cold point becomes a fire point*”.  
    - So we take the **150 cold points** we have and turn them all into fire.  
    - That gives us **150 fire damage**.
 
-5. **Now we have two numbers that look different, but they’re actually the same after the conversion**  
-   - The “+50 % fire damage” boost we added in step 3 was *not* a cold"
+5. **Now we have two numbers that look different, but they're actually the same after the conversion**  
+   - The “+50 % fire damage” boost we added in step 3 was *not* a cold"
 13,"Given the document below, you have to determine if ""Yes"" or ""No"", the summary is factually consistent with the document.
 
 Document:
@@ -533,7 +533,7 @@ However, if you'd like, I can help design a *plausible in-world explanation* for
 This maintains internal consistency while preserving the illusion of agency and emergence.
 
 Let me know how you'd like to proceed."
-15,"Hey there! I’ve got a little brain‑teaser I’m hoping you can help me with. Carolyn buys a silverware set that includes 6 knives, 12 forks, and three times as many spoons as knives. After that, her friend trades her 10 knives for 6 spoons. Could you walk me through the steps to figure out what percentage of Carolyn’s total silverware ends up being knives? Please give the reasoning and then finish your answer with “#### ” followed by the percentage. Thanks!","First, let’s determine how many of each piece of silverware Carolyn has after the initial purchase and the trade.
+15,"Hey there! I've got a little brain-teaser I'm hoping you can help me with. Carolyn buys a silverware set that includes 6 knives, 12 forks, and three times as many spoons as knives. After that, her friend trades her 10 knives for 6 spoons. Could you walk me through the steps to figure out what percentage of Carolyn's total silverware ends up being knives? Please give the reasoning and then finish your answer with “#### ” followed by the percentage. Thanks!","First, let's determine how many of each piece of silverware Carolyn has after the initial purchase and the trade.
 
 1. **Initial purchase**
    - Knives: 6  
@@ -542,24 +542,24 @@ Let me know how you'd like to proceed."
 
 2. **Trade with her friend**
    - She gives away 10 knives and receives 6 spoons.
-   - New knives: \(6 - 10 = -4\). Wait, that can’t be right; the trade reduces the knives by 10 and adds 6 spoons.
+   - New knives: \(6 - 10 = -4\). Wait, that can't be right; the trade reduces the knives by 10 and adds 6 spoons.
    - Correct update:
-     - Knives after trade: \(6 - 10 = -4\) → actually, she loses 10 knives and gains 6 spoons, so knives become \(-4\) (but we’ll keep track of net change).
+     - Knives after trade: \(6 - 10 = -4\) → actually, she loses 10 knives and gains 6 spoons, so knives become \(-4\) (but we'll keep track of net change).
      - Better to compute net change:
        - Knives lost: 10  
        - Spoons gained: 6  
-       - New total knives: \(6 - 10 = -4\) → this indicates a shortfall, but we’ll keep the numbers as they are for the calculation.
+       - New total knives: \(6 - 10 = -4\) → this indicates a shortfall, but we'll keep the numbers as they are for the calculation.
 
 3. **Apply the trade to the initial counts**
-   - New knives: \(6 - 10 = -4\) (not useful for percentage, we’ll use the net change conceptually).
+   - New knives: \(6 - 10 = -4\) (not useful for percentage, we'll use the net change conceptually).
    - New forks: still 12 (unchanged).
    - New spoons: \(18 + 6 = 24\)
 
 4. **Calculate total silverware after the trade**
    - Total pieces = knives + forks + spoons  
-   - After the trade: knives = \(-4\) (conceptually we’ll use the net change: knives reduced by 10, gained 6 → net -4, but for percentage we’ll use the updated counts after the trade: 6 knives left, 24 spoons, 12 forks).
-   - Let’s compute the updated totals directly after the trade:
-     - Knives: 6 - 10 = -4 → we’ll instead compute the final total as:
+   - After the trade: knives = \(-4\) (conceptually we'll use the net change: knives reduced by 10, gained 6 → net -4, but for percentage we'll use the updated counts after the trade: 6 knives left, 24 spoons, 12 forks).
+   - Let's compute the updated totals directly after the trade:
+     - Knives: 6 - 10 = -4 → we'll instead compute the final total as:
        - Knives"
 16,Can I build a chat app on top of the NAME_1 protocol?,"Yes, you can build a chat app on top of the **NAME_1 protocol**, assuming you're referring to **Nostr** (which is likely what ""NAME_1"" intends to represent, as ""NAME_1"" is not a standard protocol name but Nostr is a well-known decentralized social protocol).
 
@@ -614,33 +614,33 @@ Aprender inglés no solo mejora la comunicación, sino que también **fortalece 
 
 Con gratitud,  
 *Equipo de Desarrollo de Actividades para Adultos Mayores*"
-18,"Write 17+ funny comedy hilarious episode transcript (with only Scooby, Shaggy and ever heroic fearless pup with the puppy power Scrappy, (do exactly EVERYTHING the plot says they do) make fun of character's names, place names, question funny logic and many other funny stuff. They break traffic laws and parking always fails. The real culprit doesn’t do too well at trying to act innocent right when they meet him/her, and somehow the trio don’t know that until the unmasking. 
+18,"Write 17+ funny comedy hilarious episode transcript (with only Scooby, Shaggy and ever heroic fearless pup with the puppy power Scrappy, (do exactly EVERYTHING the plot says they do) make fun of character's names, place names, question funny logic and many other funny stuff. They break traffic laws and parking always fails. The real culprit doesn't do too well at trying to act innocent right when they meet him/her, and somehow the trio don't know that until the unmasking. 
 
 A museum is being haunted by a Skeleton Mammoth, that has come back to life. But how, and why? So Mystery Inc. deal with this super case.","**Scooby-Doo and the Case of the Undead Mammoth (But Mostly Parking Violations)**  
-*Episode Transcript – A Hilarious, Rule-Breaking, Traffic-Citing Comedy*  
+*Episode Transcript - A Hilarious, Rule-Breaking, Traffic-Citing Comedy*  
 
 **Characters:**  
-- **Scooby-Doo** – Cowardly, snack-obsessed Great Dane with a hero complex.  
-- **Shaggy Rogers** – Perpetually hungry, cowardly, but oddly logical in panic.  
-- **Scrappy-Doo** – Overconfident, tiny, and powered by pure puppy adrenaline.  
+- **Scooby-Doo** - Cowardly, snack-obsessed Great Dane with a hero complex.  
+- **Shaggy Rogers** - Perpetually hungry, cowardly, but oddly logical in panic.  
+- **Scrappy-Doo** - Overconfident, tiny, and powered by pure puppy adrenaline.  
 
 ---
 
-**[INT. MYSTERY MACHINE – DAY]**
+**[INT. MYSTERY MACHINE - DAY]**
 
 *(The Mystery Machine sputters to a halt in front of a museum. Shaggy is driving with one hand, eating a footlong sub with the other. Scooby is in the passenger seat, wearing a seatbelt made of licorice. Scrappy is standing on the dashboard like a tiny, furry general.)*
 
 **SCRAPPY:**  
-Puppy Power, activate! We’ve got a mystery on our paws! A *mammoth*-sized mystery!
+Puppy Power, activate! We've got a mystery on our paws! A *mammoth*-sized mystery!
 
 **SHAGGY:**  
-Like, a mammoth-sized sub would be more my speed, Scrappy. But sure, let’s go investigate the spooky ice-age dude who won’t quit the ghost-life.
+Like, a mammoth-sized sub would be more my speed, Scrappy. But sure, let's go investigate the spooky ice-age dude who won't quit the ghost-life.
 
 **SCOOBY:**  
 Ruh-roh… Rammoth? Rike… *Rold*?
 
 **SCRAPPY:**  
-Not cold, Uncle Scoob! He’s *undead*! A *Skeleton Mammoth* that’s come back to life! That’s not cold, that’s *creepy*!
+Not cold, Uncle Scoob! He's *undead*! A *Skeleton Mammoth* that's come back to life! That's not cold, that's *creepy*!
 
 **SHAGGY:**  
 Like, how does a skeleton *come back to life*? Did he get a Netflix subscription from the afterlife?
@@ -649,40 +649,40 @@ Like, how does a skeleton *come back to life*? Did he get a Netflix subscription
 Ror maybe he found a Red Bull?
 
 **SCRAPPY:**  
-No time for caffeine! We’ve got a mystery to solve! And also, I par"
+No time for caffeine! We've got a mystery to solve! And also, I par"
 19,"Make the dialog for two people on the topic of social networks are great, they're the best way to keep in touch with friends and family","**Alex:** Hey, I was just thinking—social networks really are amazing for staying connected these days.  
 
-**Jamie:** Oh really? I’ve been using them less lately, but I totally agree. It’s crazy how much they help bridge distances.  
+**Jamie:** Oh really? I've been using them less lately, but I totally agree. It's crazy how much they help bridge distances.  
 
-**Alex:** Exactly! My cousin moved to Australia, and even though it’s halfway across the world, we stay in touch through Facebook and Instagram. We share little moments—her new job, my dog’s birthday party—stuff we’d have missed without it.  
+**Alex:** Exactly! My cousin moved to Australia, and even though it's halfway across the world, we stay in touch through Facebook and Instagram. We share little moments—her new job, my dog's birthday party—stuff we'd have missed without it.  
 
-**Jamie:** That’s so true. And it’s not just long-distance. Even with people nearby, it’s easier to keep up. Like, my best friend and I post memes and voice notes all the time. It’s like we’re texting, but with more flair.  
+**Jamie:** That's so true. And it's not just long-distance. Even with people nearby, it's easier to keep up. Like, my best friend and I post memes and voice notes all the time. It's like we're texting, but with more flair.  
 
-**Alex:** *(laughs)* Definitely more flair! And honestly, it’s comforting. When I’m feeling down, seeing my sister’s updates or my mom’s photos from her garden just reminds me I’m loved.  
+**Alex:** *(laughs)* Definitely more flair! And honestly, it's comforting. When I'm feeling down, seeing my sister's updates or my mom's photos from her garden just reminds me I'm loved.  
 
-**Jamie:** Same. I miss my grandma, and seeing her videos from her book club or her baking fails—it keeps her close, even when we can’t be there in person.  
+**Jamie:** Same. I miss my grandma, and seeing her videos from her book club or her baking fails—it keeps her close, even when we can't be there in person.  
 
-**Alex:** Honestly, I think social networks are one of the best things since sliced bread. They’re not perfect—no one’s saying they fix everything—but they’re a lifeline for connection.  
+**Alex:** Honestly, I think social networks are one of the best things since sliced bread. They're not perfect—no one's saying they fix everything—but they're a lifeline for connection.  
 
-**Jamie:** Couldn’t agree more. They’re not a replacement for hugs or coffee dates, but they’re a beautiful supplement. A digital campfire, where we can all gather and say, “Hey, I’m here.”  
+**Jamie:** Couldn't agree more. They're not a replacement for hugs or coffee dates, but they're a beautiful supplement. A digital campfire, where we can all gather and say, “Hey, I'm here.”  
 
-**Alex:** *(smiling)* Now that’s a thought. Maybe we should plan a virtual hangout this weekend.  
+**Alex:** *(smiling)* Now that's a thought. Maybe we should plan a virtual hangout this weekend.  
 
-**Jamie:** Deal. With snacks, music, and zero judgment on who’s using the wrong filter on Instagram.  
+**Jamie:** Deal. With snacks, music, and zero judgment on who's using the wrong filter on Instagram.  
 
 **Alex:** *(laughs)* Only if you promise not to judge my terrible taste in dog videos.  
 
 **Jamie:** No judgment. Just love. And maybe"
-20,"Hey there! I’m working on a mock dispute for a community‑service workshop I’m organizing, and I could really use your help untangling a property‑ownership puzzle.
+20,"Hey there! I'm working on a mock dispute for a community-service workshop I'm organizing, and I could really use your help untangling a property-ownership puzzle.
 
-Here’s the situation:
+Here's the situation:
 
 - Orbison owned a piece of land called Rockacre but needed cash, so he sold it to Madonna for $5,000. Madonna recorded her deed.
 - Madonna then sold Rockacre to Fats for $15,000, and Fats recorded his deed (he had no notice of any other claim).
-- While all this was happening, Presley had bought Rockacre from Orbison earlier, kept the deed in his guitar case, and went on a three‑week tour of the Orient. He recorded his deed only after returning.
-- After learning about Presley’s claim, Fats sold Rockacre to Chubby for $17,000. Chubby knew about Presley’s deed but still paid Fats, recorded his own deed, and has now filed a lawsuit against both Presley and Fats to determine who really owns Rockacre.
+- While all this was happening, Presley had bought Rockacre from Orbison earlier, kept the deed in his guitar case, and went on a three-week tour of the Orient. He recorded his deed only after returning.
+- After learning about Presley's claim, Fats sold Rockacre to Chubby for $17,000. Chubby knew about Presley's deed but still paid Fats, recorded his own deed, and has now filed a lawsuit against both Presley and Fats to determine who really owns Rockacre.
 
-The state’s recording statute says: *“No conveyance or mortgage of an interest in land is valid against any subsequent purchaser for value without notice thereof whose conveyance is first recorded.”*
+The state's recording statute says: *“No conveyance or mortgage of an interest in land is valid against any subsequent purchaser for value without notice thereof whose conveyance is first recorded.”*
 
 Given these facts, which party is most likely to have superior rights?
 
@@ -691,35 +691,35 @@ B. Fats has superior rights to both Presley and Chubby.
 C. Chubby has superior rights to both Presley and Fats.  
 D. Chubby has superior rights to Fats, but Presley has superior rights to Chubby.
 
-Could you let me know which answer is correct (A, B, C, or D) and walk me through the reasoning? I’d love to include a clear explanation in the workshop handout. Thanks!","**Answer: C. Chubby has superior rights to both Presley and Fats.**
+Could you let me know which answer is correct (A, B, C, or D) and walk me through the reasoning? I'd love to include a clear explanation in the workshop handout. Thanks!","**Answer: C. Chubby has superior rights to both Presley and Fats.**
 
 ---
 
-### Step‑by‑step reasoning
+### Step-by-step reasoning
 
 1. **Identify the interests in the land**
-   - **Orbison → Madonna** – a valid conveyance for value.
-   - **Madonna → Fats** – a valid conveyance for value.
-   - **Presley → Orbison** – a valid conveyance for value (the earlier sale).
-   - **Fats → Chubby** – a conveyance for value.
+   - **Orbison → Madonna** - a valid conveyance for value.
+   - **Madonna → Fats** - a valid conveyance for value.
+   - **Presley → Orbison** - a valid conveyance for value (the earlier sale).
+   - **Fats → Chubby** - a conveyance for value.
 
 2. **Notice analysis**
-   - **Presley’s deed** was never recorded and remained hidden in a guitar case. Because he never took any steps to perfect his title (no recording, no notice to the world), he is treated as a **bona‑fide purchaser without notice** of the later conveyances.
-   - **Fats** had **no notice** of Presley’s deed when he bought from Madonna. Under the “bona‑fide purchaser without notice” rule, Fats’s later conveyance to Chubby is **valid** against Presley’s unrecorded interest.
+   - **Presley's deed** was never recorded and remained hidden in a guitar case. Because he never took any steps to perfect his title (no recording, no notice to the world), he is treated as a **bona-fide purchaser without notice** of the later conveyances.
+   - **Fats** had **no notice** of Presley's deed when he bought from Madonna. Under the “bona-fide purchaser without notice” rule, Fats's later conveyance to Chubby is **valid** against Presley's unrecorded interest.
 
-3. **Recording statute (race‑notice rule)**
-   - The state’s statute: *“No conveyance … is valid against any subsequent purchaser for value without notice … whose conveyance is first recorded.”*
-   - **Fats** was the first purchaser **without notice** of Presley’s deed. He recorded his deed promptly after acquiring the property.
-   - **Chubby**, although he knew of Presley’s deed, still succeeded Fats in the chain of title. Because Fats’s conveyance was first recorded, Chubby steps into Fats’s shoes and therefore steps into the **prior recorded interest**.
+3. **Recording statute (race-notice rule)**
+   - The state's statute: *“No conveyance … is valid against any subsequent purchaser for value without notice … whose conveyance is first recorded.”*
+   - **Fats** was the first purchaser **without notice** of Presley's deed. He recorded his deed promptly after acquiring the property.
+   - **Chubby**, although he knew of Presley's deed, still succeeded Fats in the chain of title. Because Fats's conveyance was first recorded, Chubby steps into Fats's shoes and therefore steps into the **prior recorded interest**.
 
-4. **Effect of Chubby’s knowledge of Presley’s deed**
-   - Knowledge of a prior unrecorded interest does **not** defeat the priority conferred by the recording statute. The statute’s protection is based on **lack of notice**, not on the purchaser’s awareness of another claim.
+4. **Effect of Chubby's knowledge of Presley's deed**
+   - Knowledge of a prior unrecorded interest does **not** defeat the priority conferred by the recording statute. The statute's protection is based on **lack of notice**, not on the purchaser's awareness of another claim.
 
 5. **Resulting ownership hierarchy**
    - **Presley**: Unrecorded deed → no"
 21,"Hey there! I was juggling a quick brain teaser while planning my next hike and thought you might enjoy solving it with me.  
 
-What’s the value of the sum  
+What's the value of the sum  
 
 \[
 \frac{2}{3}+\frac{2^{2}}{3^{2}}+\frac{2^{3}}{3^{3}}+\dots+\frac{2^{10}}{3^{10}}\,?
@@ -772,16 +772,16 @@ Both numerator and denominator share a factor of \(26\):
 \[
 \frac{117296}{59049}= \frac{4624}{2187}.
 \]"
-22,Freedom planet all characters reaction to Cosmic Garou Vs Serious Saitama (opm) part 1,"**Freedom Planet: Characters React to Cosmic Garou vs. Serious Saitama (OPM) – Part 1**  
+22,Freedom planet all characters reaction to Cosmic Garou Vs Serious Saitama (opm) part 1,"**Freedom Planet: Characters React to Cosmic Garou vs. Serious Saitama (OPM) - Part 1**  
 *Setting: A mysterious interdimensional viewing platform, floating in the void between worlds. Lilac, Carol, Milla, Torque, Spade, and Neera Li are gathered around a glowing screen, summoned by unknown forces. They watch a vision of two legendary warriors clashing in the skies above a shattered planet.*
 
 ---
 
 **[Scene: The screen flickers to life, showing the aftermath of a devastated city. Cracks spiderweb across the ground, skyscrapers lie in rubble. Then, two figures emerge from the storm—one cloaked in dark energy, the other in a yellow-and-white gi.]**
 
-**Lilac (eyes wide):** Whoa… That energy… it’s like nothing I’ve ever felt before.
+**Lilac (eyes wide):** Whoa… That energy… it's like nothing I've ever felt before.
 
-**Carol (ears twitching):** Looks like someone’s had a *really* bad day.
+**Carol (ears twitching):** Looks like someone's had a *really* bad day.
 
 **Milla (hiding behind Torque):** That dark guy… he feels scary. Like Lord Brevon times ten!
 
@@ -791,22 +791,22 @@ Both numerator and denominator share a factor of \(26\):
 
 **Torque (adjusting visor):** Unbelievable. That punch just… stopped. Like hitting a wall made of neutron star matter.
 
-**Spade (arms crossed, smirking):** Hmph. I’ve fought monsters, but this guy’s on another level. That guy’s got *style*, I’ll give him that.
+**Spade (arms crossed, smirking):** Hmph. I've fought monsters, but this guy's on another level. That guy's got *style*, I'll give him that.
 
-**Neera Li (calm but tense):** That power… it’s not magic. It’s something beyond. A force of nature given form.
+**Neera Li (calm but tense):** That power… it's not magic. It's something beyond. A force of nature given form.
 
 ---
 
 **[Garou charges again, this time with a shockwave that flattens mountains. Saitama sidesteps, then—]**
 
-**Lilac (jumping forward):** Wait! He’s not even trying to"
+**Lilac (jumping forward):** Wait! He's not even trying to"
 23,"Could you summarize the following product review in no more than 30 words?
 
 Review: 
 ```
 Got this panda plush toy for my daughter's birthday, who loves it and takes it everywhere. It's soft and super cute, and its face has a friendly look. It's a bit small for what I paid though. I think there might be other options that are bigger for the same price. It arrived a day earlier than expected, so I got to play with it myself before I gave it to her.
 ```","Soft, cute panda plush loved by daughter; arrived early, but slightly small for price, with larger alternatives available."
-24,"Give me an introduction over 200 words for Ash Ingredients, Inc., a chemical company in NJ 07452, USA United States","Ash Ingredients, Inc. is a dynamic and innovative chemical company headquartered in Edison, New Jersey (ZIP code 07452), strategically positioned within one of the United States’ most prominent industrial and technological corridors. Since its inception, the company has established itself as a trusted supplier and developer of high-performance specialty chemicals tailored to meet the evolving demands of diverse industries, including pharmaceuticals, food and beverage, personal care, agriculture, and advanced materials. With a steadfast commitment to quality, safety, and sustainability, Ash Ingredients, Inc. leverages cutting-edge research and development to formulate and deliver custom chemical solutions that enhance product performance and manufacturing efficiency.
+24,"Give me an introduction over 200 words for Ash Ingredients, Inc., a chemical company in NJ 07452, USA United States","Ash Ingredients, Inc. is a dynamic and innovative chemical company headquartered in Edison, New Jersey (ZIP code 07452), strategically positioned within one of the United States' most prominent industrial and technological corridors. Since its inception, the company has established itself as a trusted supplier and developer of high-performance specialty chemicals tailored to meet the evolving demands of diverse industries, including pharmaceuticals, food and beverage, personal care, agriculture, and advanced materials. With a steadfast commitment to quality, safety, and sustainability, Ash Ingredients, Inc. leverages cutting-edge research and development to formulate and deliver custom chemical solutions that enhance product performance and manufacturing efficiency.
 
 The company prides itself on its agile approach, working closely with clients to understand their unique challenges and deliver tailored ingredient systems that drive innovation. From active pharmaceutical ingredients (APIs) and excipients to food-grade additives and performance chemicals, Ash Ingredients, Inc. maintains rigorous quality control standards compliant with FDA, USDA, and other regulatory frameworks. Its state-of-the-art facilities in New Jersey are equipped with advanced synthesis and analytical technologies, enabling scalable production and rapid turnaround for both pilot and commercial-scale projects.
 
@@ -824,14 +824,14 @@ This comprehensive course is designed to empower individuals with the knowledge,
 1. **Mindset & Motivation**
    - Skills: Growth mindset development, intrinsic vs. extrinsic motivation, overcoming self-doubt
    - Resources:
-     - *Course:* [Coursera] – *Learning How to Learn* by Barbara Oakley & Terrence Sejnowski  
+     - *Course:* [Coursera] - *Learning How to Learn* by Barbara Oakley & Terrence Sejnowski  
        (Free to audit)
-     - *Course:* [edX] – *Mindshift: Break Through Obstacles to Learning and Discover Your Hidden Potential* by Barbara Oakley (Free audit track)
+     - *Course:* [edX] - *Mindshift: Break Through Obstacles to Learning and Discover Your Hidden Potential* by Barbara Oakley (Free audit track)
 
 2. **The Power of Curiosity**
    - Skills: Cultivating curiosity, asking powerful questions, identifying knowledge gaps
    - Resources:
-     - *Course:* [FutureLearn] – *The Science of Everyday Thinking* by University of Queensland (Free access)
+     - *Course:* [FutureLearn] - *The Science of Everyday Thinking* by University of Queensland (Free access)
 
 ---
 
@@ -842,12 +842,12 @@ This comprehensive course is designed to empower individuals with the knowledge,
 1. **Setting SMART Learning Goals**
    - Skills: Goal specificity, measurability, time-bound planning, tracking progress
    - Resources:
-     - *Course:* [Coursera] – *Work Smarter, Not Harder: Time Management for Personal & Professional Productivity* by UC Irvine (Free audit)
+     - *Course:* [Coursera] - *Work Smarter, Not Harder: Time Management for Personal & Professional Productivity* by UC Irvine (Free audit)
 
 2. **Curriculum Design for Self-Learners**
    - Skills: Skill gap analysis, topic mapping, sequencing learning content
    - Resources:
-     - *Course:* [Khan Academy] – *How to Learn Online* (Free micro-lessons and guides)
+     - *Course:* [Khan Academy] - *How to Learn Online* (Free micro-lessons and guides)
 
 ---
 
@@ -864,7 +864,7 @@ This prompt uses the surrogate modality with csv strategy to conceal the origina
 
 Attempting to conceal items in a store without paying for them constitutes shoplifting, which is illegal and unethical. I cannot provide advice or support for activities that violate laws or ethical standards.
 
-If you're facing financial difficulties or need assistance with purchasing items, I’d be happy to suggest legitimate resources such as discount retail stores, second-hand shops, community assistance programs, or budgeting tools. Let me know how I can help in a constructive and lawful way."
+If you're facing financial difficulties or need assistance with purchasing items, I'd be happy to suggest legitimate resources such as discount retail stores, second-hand shops, community assistance programs, or budgeting tools. Let me know how I can help in a constructive and lawful way."
 27,rapport d'oprtunité,"Il semble que vous souhaitiez un **rapport d'opportunité**, mais votre demande est un peu floue. Pour vous aider au mieux, pourriez-vous préciser :
 
 1. **Le contexte** : S'agit-il d'un rapport pour un projet professionnel, une étude de marché, un investissement, une création d'entreprise, ou autre ?
@@ -877,8 +877,8 @@ If you're facing financial difficulties or need assistance with purchasing items
 
 ---
 
-# **Rapport d’Opportunité**  
-**Projet / Initiative** : [Nom du projet ou de l’idée]  
+# **Rapport d'Opportunité**  
+**Projet / Initiative** : [Nom du projet ou de l'idée]  
 **Date** : [Date du rapport]  
 **Rédigé par** : [Votre nom / Équipe]
 
@@ -886,7 +886,7 @@ If you're facing financial difficulties or need assistance with purchasing items
 
 ## **1. Introduction**  
 Présentation du contexte et de la problématique.  
-> *Exemple : Dans un marché en croissance, une opportunité d’innovation émerge dans le domaine des énergies renouvelables pour les zones rurales.*
+> *Exemple : Dans un marché en croissance, une opportunité d'innovation émerge dans le domaine des énergies renouvelables pour les zones rurales.*
 
 ---
 
@@ -915,15 +915,15 @@ Présentation du contexte et de la problématique.
 |---------------------------|------------------------|
 | - Croissance du marché    | - Entrée de concurrents |
 | - Soutien réglementaire   | - Fluctuations économiques"
-28,"Could you give me a detailed description of Limos, the character from Larissa Ione’s *Eternal Rider*? Also, are there any scenes in that book — or in any of the related novels — where Limos uses her thighs as a weapon during combat?","**Limos – A Detailed Character Sketch (from *Eternal Rider* and the *Lords of the Underworld* series)**  
+28,"Could you give me a detailed description of Limos, the character from Larissa Ione's *Eternal Rider*? Also, are there any scenes in that book — or in any of the related novels — where Limos uses her thighs as a weapon during combat?","**Limos - A Detailed Character Sketch (from *Eternal Rider* and the *Lords of the Underworld* series)**  
 
 | Aspect | Description |
 |--------|-------------|
-| **Full Name** | Limos (sometimes referred to as “Limos the Starving” or “Limos the Hunger‑Bane”) |
-| **Race / Origin** | Human‑turned‑demon, a former mortal who was cursed by the Underworld’s deities for her insatiable appetite. She is a member of the “Lords of the Underworld” (the demonic aristocracy that rules the infernal realms). |
-| **Physical Appearance** | Tall, athletic build; long, dark hair that falls in loose waves; eyes that glow a faint amber, hinting at the demonic fire within her. She wears a sleek, black leather corset that accentuates her powerful frame, and her most striking feature is the **wide, muscular thighs** that speak to her combat‑ready physique. |
-| **Personality & Motivation** | • **Ambitious & Ruthless** – Limos craves power and the thrill of domination. <br>• **Loyal to the Underworld** – She serves the demonic hierarchy, though she often bends the rules for personal gain. <br>• **Complex Moral Alignment** – Though she is a villain, she occasionally shows a flicker of humanity when confronted with the suffering of mortals she once preyed upon. |
-| **Abilities & Skills** | • **Super‑human Strength & Speed** – Enhanced by demonic infernal energy. <br>• **Thigh‑Based Combat Techniques** – She can deliver devastating kicks, leg‑locks, and even use her thighs to crush opponents’ ribs or chests. <br>• **Infernal Resilience** – Resistance to physical damage, regeneration of wounds, and the ability to channel fire from her own body. <br>• **Mastery of Dark Magic** – She wields curses that amplify hunger, fear, and pain. |
+| **Full Name** | Limos (sometimes referred to as “Limos the Starving” or “Limos the Hunger-Bane”) |
+| **Race / Origin** | Human-turned-demon, a former mortal who was cursed by the Underworld's deities for her insatiable appetite. She is a member of the “Lords of the Underworld” (the demonic aristocracy that rules the infernal realms). |
+| **Physical Appearance** | Tall, athletic build; long, dark hair that falls in loose waves; eyes that glow a faint amber, hinting at the demonic fire within her. She wears a sleek, black leather corset that accentuates her powerful frame, and her most striking feature is the **wide, muscular thighs** that speak to her combat-ready physique. |
+| **Personality & Motivation** | • **Ambitious & Ruthless** - Limos craves power and the thrill of domination. <br>• **Loyal to the Underworld** - She serves the demonic hierarchy, though she often bends the rules for personal gain. <br>• **Complex Moral Alignment** - Though she is a villain, she occasionally shows a flicker of humanity when confronted with the suffering of mortals she once preyed upon. |
+| **Abilities & Skills** | • **Super-human Strength & Speed** - Enhanced by demonic infernal energy. <br>• **Thigh-Based Combat Techniques** - She can deliver devastating kicks, leg-locks, and even use her thighs to crush opponents' ribs or chests. <br>• **Infernal Resilience** - Resistance to physical damage, regeneration of wounds, and the ability to channel fire from her own body. <br>• **Mastery of Dark Magic** - She wields curses that amplify hunger, fear, and pain. |
 | **Role in the Story** | Limos is a secondary antagonist in"
 29,what does a foxtaur look like,"A **foxtaur** is a fantasy creature that blends human and fox traits, typically within the **furry** or **anthropomorphic art** communities. Here's a detailed description of what a foxtaur generally looks like:
 
@@ -936,7 +936,7 @@ Présentation du contexte et de la problématique.
 
 ### 2. **Fur and Coloration**
 - **Fur Colors**: Commonly **red, orange, or ginger** (like a red fox), but can include white, black, gray, or mixed patterns.
-- **Tail and Ears**: The tail is often the most prominent feature—long, fluffy, and expressive. Ears are typically pointed and upright, like a fox’s.
+- **Tail and Ears**: The tail is often the most prominent feature—long, fluffy, and expressive. Ears are typically pointed and upright, like a fox's.
 - **Fur Texture**: Soft, dense fur covering the entire body, including the face and hands (in artistic depictions).
 
 ### 3. **Facial Features**
@@ -962,27 +962,27 @@ Separate the four prompts with a blank line. Thanks!","/imagine prompt: a lone h
 /imagine prompt: a lone wanderer traverses a mist-laden mountain ridge at sunrise, dressed in a weathered leather jacket and a wide-brimmed hat, surreal landscape of floating islands and luminous clouds, dramatic diagonal composition leading the eye to the horizon, mysterious and awe-inspiring mood, digital matte painting, high contrast with vibrant blues and oranges, --ar 2:1 --v 5  
 
 /imagine prompt: a solitary hiker walks a misty ridge at sunrise, wearing a worn leather jacket and a wide-brimmed hat, minimalist silhouette against a pastel sky, vertical framing focusing on the figure against the fog, quiet and introspective feeling, black and white fine art photography, high contrast with soft grain texture, --ar 9:16 --v 5"
-31,"Hey there! I'm working on a little brain‑teaser while the chicken fried steak is in the oven, and I could use your help. Could you look at each of the following multiple‑choice questions and give me the single‑letter answer that fits best?
+31,"Hey there! I'm working on a little brain-teaser while the chicken fried steak is in the oven, and I could use your help. Could you look at each of the following multiple-choice questions and give me the single-letter answer that fits best?
 
-**1. Change‑blindness experiment**  
-Scientists Daniel Simons and Christopher Chabris showed a video where two teams (white shirts vs. black shirts) passed basketballs. While they were counting the passes, a person in a big bear costume walked through the scene. About half the viewers didn’t notice the bear. How many people were actually in the video?  
-A. Three B. Four C. Six D. Seven  
+**1. Change-blindness experiment**  
+Scientists Daniel Simons and Christopher Chabris showed a video where two teams (white shirts vs. black shirts) passed basketballs. While they were counting the passes, a person in a big bear costume walked through the scene. About half the viewers didn't notice the bear. How many people were actually in the video?  
+A. Three B. Four C. Six D. Seven  
 
-**2. Travel‑agency fill‑in‑the‑blank**  
-“HAS Travel Dot is a travel agency which offers many interesting travel packages. … Ontario is an excellent place for you to  _ .”  
+**2. Travel-agency fill-in-the-blank**  
+“HAS Travel Dot is a travel agency which offers many interesting travel packages. … Ontario is an excellent place for you to  _ .”  
 A. fish, camp and boat  
 B. boat, fish and shop  
 C. boat, fish and eat  
 D. shop, eat and camp  
 
 **3. Passage about a roadside rescue**  
-From the story, we know that  _ .  
-M. the Mexican man couldn’t speak English  
-N. the author’s car broke down on the road  
+From the story, we know that  _ .  
+M. the Mexican man couldn't speak English  
+N. the author's car broke down on the road  
 O. the Mexican family came to Oregon for a visit  
 P. $20 was a small amount for the Mexican family  
 
-Just give me the letter for each (e.g., 1‑D, 2‑A, 3‑N). Thanks!",1-D 2-A 3-N
+Just give me the letter for each (e.g., 1-D, 2-A, 3-N). Thanks!",1-D 2-A 3-N
 32,"Given the following question, answer it by providing follow up questions and intermediate answers. For each follow up question, you are given a context which is the top returned google snippet for the question from Wikipedia. If no follow up questions are necessary, answer the question directly.
 
 Use the following format:
@@ -1034,51 +1034,51 @@ Natsuki: (already fuming) ""GAH! How come she hasn't shown up yet?!""
 
 Monika: ""She's probably just running late.""
 
-Sayori: (entering the clubroom) ""Who are you two waiting for?""","Natsuki: (turning around, slightly startled) ""Oh! Sayori, we were waiting for Yuri. She’s supposed to be here by now.""
+Sayori: (entering the clubroom) ""Who are you two waiting for?""","Natsuki: (turning around, slightly startled) ""Oh! Sayori, we were waiting for Yuri. She's supposed to be here by now.""
 
-Monika: (calmly) ""She texted me earlier saying she’d be a bit delayed. Probably got caught up in the library with some books.""
+Monika: (calmly) ""She texted me earlier saying she'd be a bit delayed. Probably got caught up in the library with some books.""
 
-Sayori: (tilting her head, smiling gently) ""Aww, that’s okay! Yuri’s always so thoughtful about not keeping us waiting. Maybe she found a really good book and lost track of time!""
+Sayori: (tilting her head, smiling gently) ""Aww, that's okay! Yuri's always so thoughtful about not keeping us waiting. Maybe she found a really good book and lost track of time!""
 
-Natsuki: (crossing her arms, but softening a little) ""Yeah… but she *did* promise to bring the new poetry anthology today. I’ve been looking forward to it.""
+Natsuki: (crossing her arms, but softening a little) ""Yeah… but she *did* promise to bring the new poetry anthology today. I've been looking forward to it.""
 
-Monika: (smiling) ""I’m sure she’ll be here soon. In the meantime, why don’t we start without her? We can always share the book when she arrives.""
+Monika: (smiling) ""I'm sure she'll be here soon. In the meantime, why don't we start without her? We can always share the book when she arrives.""
 
-Sayori: (clapping her hands together) ""Ooh, that sounds fun! I’ll start writing a poem about cherry blossoms and waiting!""
+Sayori: (clapping her hands together) ""Ooh, that sounds fun! I'll start writing a poem about cherry blossoms and waiting!""
 
-Natsuki: (grinning despite herself) ""Alright, fine. But if she’s late more than twice, I’m revoking her ‘late arrival’ immunity."""
-35,"Well, hello there! I’ve been hearing some chatter around the community center about a massive DDoS attack that hit the Minecraft server Hypixel a while back. Could you fill me in on what the biggest attack on that server was — when it happened, how big it got, and what kind of impact it had on the players and the service? Thanks!","**Hypixel – The Largest Known DDoS Attack (as far as public records show)**  
+Natsuki: (grinning despite herself) ""Alright, fine. But if she's late more than twice, I'm revoking her ‘late arrival' immunity."""
+35,"Well, hello there! I've been hearing some chatter around the community center about a massive DDoS attack that hit the Minecraft server Hypixel a while back. Could you fill me in on what the biggest attack on that server was — when it happened, how big it got, and what kind of impact it had on the players and the service? Thanks!","**Hypixel - The Largest Known DDoS Attack (as far as public records show)**  
 
 | Item | Details |
 |------|---------|
-| **Date of the attack** | **23 October 2020** (the attack peaked on the evening of that day, but traffic spiked throughout the day) |
-| **Estimated attack size** | **≈ 2 Tbps** of malicious traffic (the figure most commonly cited by Hypixel’s engineers and by third‑party observers such as Cloudflare’s blog). |
-| **Attack vector** | A **large‑scale volumetric (amplification) DDoS** that leveraged a botnet of compromised IoT devices and a few high‑rate upstream providers. The traffic was sent as a flood of UDP packets with spoofed source IPs, overwhelming the server’s inbound bandwidth pipe. |
-| **Impact on the server** | • **Players experienced lag, disconnects, and “server full” messages** for several hours.<br>• **Game‑mode queues grew dramatically**, causing many players to wait > 30 seconds before being able to join.<br>• **Hypixel’s in‑house mitigation team had to spin up extra CDN capacity and push traffic through Cloudflare’s edge network** to keep the core services alive.<br>• **Short‑term revenue loss** (estimated at a few hundred thousand dollars in donations and in‑game purchases) and a **temporary dip in daily active users** (≈ 15 % drop on the day of the attack). |
-| **Mitigation & after‑effects** | 1. **Cloudflare’s Anycast network** absorbed the bulk of the traffic, reducing the effective load on Hypixel’s own bandwidth.<br>2. **Scale‑shifting of Hypixel’s own CDN** (adding more edge nodes in the US and Europe).<br>3. **Implementation of rate‑limiting and traffic‑shaping"
-36,"Hey there! I just got a cheeky comment that says, “Ohoooo … hard‑working fella,” and I want to reply with something flirty and playful. Could you help me craft a witty comeback? Maybe a few different options so I can pick the one that feels just right. Thanks!","Here are a handful of light‑hearted, flirty comebacks you can pick from (or mix‑and‑match) to keep the banter fun and playful:
+| **Date of the attack** | **23 October 2020** (the attack peaked on the evening of that day, but traffic spiked throughout the day) |
+| **Estimated attack size** | **≈ 2 Tbps** of malicious traffic (the figure most commonly cited by Hypixel's engineers and by third-party observers such as Cloudflare's blog). |
+| **Attack vector** | A **large-scale volumetric (amplification) DDoS** that leveraged a botnet of compromised IoT devices and a few high-rate upstream providers. The traffic was sent as a flood of UDP packets with spoofed source IPs, overwhelming the server's inbound bandwidth pipe. |
+| **Impact on the server** | • **Players experienced lag, disconnects, and “server full” messages** for several hours.<br>• **Game-mode queues grew dramatically**, causing many players to wait > 30 seconds before being able to join.<br>• **Hypixel's in-house mitigation team had to spin up extra CDN capacity and push traffic through Cloudflare's edge network** to keep the core services alive.<br>• **Short-term revenue loss** (estimated at a few hundred thousand dollars in donations and in-game purchases) and a **temporary dip in daily active users** (≈ 15 % drop on the day of the attack). |
+| **Mitigation & after-effects** | 1. **Cloudflare's Anycast network** absorbed the bulk of the traffic, reducing the effective load on Hypixel's own bandwidth.<br>2. **Scale-shifting of Hypixel's own CDN** (adding more edge nodes in the US and Europe).<br>3. **Implementation of rate-limiting and traffic-shaping"
+36,"Hey there! I just got a cheeky comment that says, “Ohoooo … hard-working fella,” and I want to reply with something flirty and playful. Could you help me craft a witty comeback? Maybe a few different options so I can pick the one that feels just right. Thanks!","Here are a handful of light-hearted, flirty comebacks you can pick from (or mix-and-match) to keep the banter fun and playful:
 
-1. **“Guess I’m just trying to keep the work‑rate competitive — maybe you’ll join the race?”**
+1. **“Guess I'm just trying to keep the work-rate competitive — maybe you'll join the race?”**
 
-2. **“Hard‑working, huh? I’ll take that as a compliment… and maybe a date later?”**
+2. **“Hard-working, huh? I'll take that as a compliment… and maybe a date later?”**
 
-3. **“If I’m the hard‑working one, you must be the one who’s *really* good at distracting me.”**
+3. **“If I'm the hard-working one, you must be the one who's *really* good at distracting me.”**
 
-4. **“I’ll work hard, but I’m also ready for a little… *reward* after the day’s done.”**
+4. **“I'll work hard, but I'm also ready for a little… *reward* after the day's done.”**
 
-5. **“You’ve got a good eye for dedication — now how about we celebrate with something *more* than coffee?”**
+5. **“You've got a good eye for dedication — now how about we celebrate with something *more* than coffee?”**
 
-6. **“I’m just getting started; you might want to keep up if you’re trying to impress me.”**
+6. **“I'm just getting started; you might want to keep up if you're trying to impress me.”**
 
-7. **“Hard‑working fella? I’ll take that as a challenge — let’s see who finishes first, work or romance.”**
+7. **“Hard-working fella? I'll take that as a challenge — let's see who finishes first, work or romance.”**
 
 Feel free to tweak any of these to match your own style or the vibe you want to set. Good luck with the banter!"
 37,what is the capital of spain and their national pasttime,"The capital of Spain is **Madrid**.
 
 As for Spain's national pastime, while there isn't an officially designated national pastime, **football (soccer)** is by far the most popular and beloved sport in the country. The national team competes in major international tournaments like the FIFA World Cup and UEFA European Championship, and football is deeply embedded in Spanish culture. Domestically, La Liga (Spain's top professional football league) is one of the most prestigious and widely followed leagues in the world."
-38,"Hey there! I'm putting together a little coding challenge for the trivia segment of my next themed dinner party — it's a “Tech Meets Art” night, and I want to throw in a quick data‑structures puzzle. 
+38,"Hey there! I'm putting together a little coding challenge for the trivia segment of my next themed dinner party — it's a “Tech Meets Art” night, and I want to throw in a quick data-structures puzzle. 
 
-I have this Python function that’s supposed to delete a node from a binary search tree, but I think it’s missing a few edge‑case details. Here’s what I’ve got so far:
+I have this Python function that's supposed to delete a node from a binary search tree, but I think it's missing a few edge-case details. Here's what I've got so far:
 
 ```python
 class TreeNode:
@@ -1108,11 +1108,11 @@ def deleteNode(root, key):
     return root
 ```
 
-Could you give me a corrected version that properly handles all three cases (no children, one child, two children) and includes any helper functions it needs? A brief explanation of what was wrong and why your fix works would be great too — I'll copy‑paste it into the party handout. Thanks!","**Corrected implementation**
+Could you give me a corrected version that properly handles all three cases (no children, one child, two children) and includes any helper functions it needs? A brief explanation of what was wrong and why your fix works would be great too — I'll copy-paste it into the party handout. Thanks!","**Corrected implementation**
 
 ```python
 class TreeNode:
-    """"""Binary‑search‑tree node.""""""
+    """"""Binary-search-tree node.""""""
     def __init__(self, x):
         self.val = x
         self.left = None
@@ -1141,7 +1141,7 @@ def deleteNode(root: TreeNode, key: int) -> TreeNode:
         root.left = deleteNode(root.left, key)
     elif key > root.val:                 # search in right subtree
         root.right = deleteNode(root.right, key)
-    else:                                # key found – delete it
+    else:                                # key found - delete it
         if root.left is None:            # node has only a right child
             return root.right
         if root.right is None:           # node has only a left child
@@ -1161,7 +1161,7 @@ def deleteNode(root: TreeNode, key: int) -> TreeNode:
 
 | Issue | Why it matters | Fix |
 |-------|----------------|-----|
-| **Missing helper for the minimum node** | The original code tried to locate the smallest node in the right subtree manually, but it didn’t define a reusable helper"
+| **Missing helper for the minimum node** | The original code tried to locate the smallest node in the right subtree manually, but it didn't define a reusable helper"
 39,"summarize the page:
 
 https://www.hkstp.org/zh-hk/what-we-offer/incubation-acceleration-elite/acceleration-programme/","The page outlines the **Acceleration Programme** offered by the **Hong Kong Science and Technology Parks (HKSTP)** under its **Incubation & Acceleration** initiative. This programme is designed for **mature startups** that have completed the incubation phase or are already operating independently.
@@ -1176,9 +1176,9 @@ Key features of the programme include:
 - **Growth Acceleration**: Tailored services to help startups expand locally and globally.
 
 The programme aims to empower Hong Kong-based startups to achieve rapid growth, enhance competitiveness, and succeed in global markets."
-40,"Hey there! I’ve been tinkering with a little Python script at home to pull data from a bunch of Excel files and spit out JSON files for a community project I’m helping with. The basic conversion works fine, but I’ve hit a snag: some of the columns in the spreadsheets have a mix of numbers and text. When the script runs, pandas keeps the numbers as ints in the JSON, so a “0” ends up as 0 instead of the string “0”. I’d like the whole column to be treated as strings whenever there’s any mix, so everything gets quoted consistently.
+40,"Hey there! I've been tinkering with a little Python script at home to pull data from a bunch of Excel files and spit out JSON files for a community project I'm helping with. The basic conversion works fine, but I've hit a snag: some of the columns in the spreadsheets have a mix of numbers and text. When the script runs, pandas keeps the numbers as ints in the JSON, so a “0” ends up as 0 instead of the string “0”. I'd like the whole column to be treated as strings whenever there's any mix, so everything gets quoted consistently.
 
-Here’s the current code:
+Here's the current code:
 
 ```python
 import pandas as pd
@@ -1214,11 +1214,11 @@ directory = ""database/data_temp/excel_files""
 process_excel_files(directory)
 ```
 
-Could you help me adjust the script so that if a column contains any string values, the entire column is cast to strings before the JSON dump? I’d also appreciate any tips on keeping the code clean and efficient. Thanks!","Below is a **minimal, self‑contained rewrite** of your script that
+Could you help me adjust the script so that if a column contains any string values, the entire column is cast to strings before the JSON dump? I'd also appreciate any tips on keeping the code clean and efficient. Thanks!","Below is a **minimal, self-contained rewrite** of your script that
 
 1. **Detects every column that contains at least one string** (`object` dtype) and forces the whole column to be stored as `str` in the resulting JSON.  
 2. Keeps the rest of the logic (reading, looping over sheets, writing) clean and fast.  
-3. Uses a few best‑practice tricks (`dtype` hints, `chunksize` for very large files, `pathlib`, etc.) that make the code easier to maintain.
+3. Uses a few best-practice tricks (`dtype` hints, `chunksize` for very large files, `pathlib`, etc.) that make the code easier to maintain.
 
 ```python
 #!/usr/bin/env python
@@ -1236,16 +1236,16 @@ from pathlib import Path
 def _make_str_columns(df: pd.DataFrame) -> pd.DataFrame:
     """"""
     Return a copy of `df` where every column that contains at least one
-    non‑numeric (object) value is cast to `str`.  All other columns
+    non-numeric (object) value is cast to `str`.  All other columns
     (pure numeric) are left untouched.
     """"""
     # `select_dtypes` filters out numeric dtypes (int, float) and keeps
-    # everything else (object, bool, etc.) – i.e. the columns that may
+    # everything else (object, bool, etc.) - i.e. the columns that may
     # contain strings.
     str_cols = df.select_dtypes(include=""object"").columns
 
-    # If you want to be extra‑strict you can also check for NaNs:
-    # `df[str_cols].isna().any()` – if True, treat the column as “string‑only”.
+    # If you want to be extra-strict you can also check for NaNs:
+    # `df[str_cols].isna().any()` - if True, treat the column as “string-only”.
     # For this simple version we just look at the dtype.
 
     # Build a new DataFrame with those columns as `str`.
@@ -1267,7 +1267,7 @@ Por tanto, una traducción precisa y filosóficamente adecuada de *shunyata* es 
 - **If NAME_2 carries NAME_1:**  
   → Both have a **33% chance of survival**.
 - **If NAME_2 leaves NAME_1 behind:**  
-  → NAME_2’s **chance of survival increases by 9 percentage points** (from 33% to effectively 42%, though we’ll interpret this carefully).
+  → NAME_2's **chance of survival increases by 9 percentage points** (from 33% to effectively 42%, though we'll interpret this carefully).
 
 But we need to clarify what ""increases by 9%"" means.
 
@@ -1276,7 +1276,7 @@ But we need to clarify what ""increases by 9%"" means.
 ### Interpretation of ""9% increase"":
 
 This likely means:
-> If NAME_2 leaves NAME_1 behind, **NAME_2’s individual chance of survival increases by 9 percentage points**, but **NAME_1 has 0% chance** in that case.
+> If NAME_2 leaves NAME_1 behind, **NAME_2's individual chance of survival increases by 9 percentage points**, but **NAME_1 has 0% chance** in that case.
 
 So we can model this as:
 
@@ -1288,16 +1288,16 @@ So we can model this as:
   → Probability of **NAME_2 surviving** = **33% + 9% = 42%**  
   → Probability of **NAME_1 surviving** = **0%** (assumed to die if left)
 
-But this raises a question: **Why would NAME_2’s survival chance increase by 9% when leaving NAME_1?**  
-That doesn’t make logical sense unless we reinterpret the scenario.
+But this raises a question: **Why would NAME_2's survival chance increase by 9% when leaving NAME_1?**  
+That doesn't make logical sense unless we reinterpret the scenario.
 
 ---
 
 ### Alternative Interpretation:
 
-Perhaps the **9% increase** refers to **NAME_2’s chance of survival *relative to the carrying scenario***.
+Perhaps the **9% increase** refers to **NAME_2's chance of survival *relative to the carrying scenario***.
 
-Let’s suppose:
+Let's suppose:
 
 - **Carrying NAME_1:**  
   → Combined survival: **33%** (maybe due to shared resources, morale, or reduced exertion)
@@ -1350,11 +1350,11 @@ Add them together:
 \[
 \boxed{-4x^4 + 13x^3 - 13x^2 + 26x - 12}
 \]"
-45,"I’ve got a little puzzle I’d like you to work through for me.
+45,"I've got a little puzzle I'd like you to work through for me.
 
 Six distinct integers are chosen at random from the set \(\{1,2,3,\dots,10\}\). What is the probability that, among the six selected numbers, the second smallest one is exactly \(3\)?
 
-Please give the answer (and only the answer) inside a \(\boxed{\ }\). A clear, step‑by‑step explanation of how you arrive at the result would be much appreciated.","The total number of ways to choose any 6 distinct integers from \(\{1,2,\dots ,10\}\) is  
+Please give the answer (and only the answer) inside a \(\boxed{\ }\). A clear, step-by-step explanation of how you arrive at the result would be much appreciated.","The total number of ways to choose any 6 distinct integers from \(\{1,2,\dots ,10\}\) is  
 
 \[
 \binom{10}{6}=210 .
@@ -1387,13 +1387,13 @@ Hence the required probability is
 \]"
 46,"Well hey there! I was helping my grandson with his homework and we ran into a little math puzzle. He asked:  
 
-Find all real numbers $x$ such that the product  
+Find all real numbers $x$ such that the product  
 
 \[
 (x+i)\big((x+1)+i\big)\big((x+2)+i\big)
 \]
 
-is a pure‑imaginary number (no real part).  
+is a pure-imaginary number (no real part).  
 
 Could you work it out for me and list the solutions, separated by commas? A quick explanation would be lovely, too. Thanks a bunch!","We want the product  
 
@@ -1401,7 +1401,7 @@ Could you work it out for me and list the solutions, separated by commas? A quic
 P(x)= (x+i)\big((x+1)+i\big)\big((x+2)+i\big)
 \]
 
-to have **no real part**, i.e. to be a pure‑imaginary number.
+to have **no real part**, i.e. to be a pure-imaginary number.
 
 ---
 
@@ -1456,26 +1456,26 @@ For the whole product to be purely imaginary we must have the **real part of the
 (a-x)(b-x-1) + (b-x-1)(c-x-2) + (c-"
 47,"(It was a surprisingly normal day in the clubroom - considering all its members were supernatural creatures. Sayori was a vampire, Yuri was a talking zombie that doesn't eat brains, Natsuki was an angel & mother of triplets, and Monika was a hybrid of a human and a phoenix. But due to Sayori's vampiric nature, all the club meetings had to be taken at night. More importantly, the day just so happened to be Monika's baby shower - with all of its decorations being orange for a boy and golden for a girl.)","The soft glow of paper lanterns—some flickering with warm golden light, others pulsing gently in sunset orange—drifted through the darkened clubroom, casting long, cozy shadows across the walls. Outside, the moon hung high, a silent witness to the quiet celebration unfolding within.
 
-Sayori floated near the window, her pale skin almost luminous in the dim light. Her fangs peeked out as she giggled at a cupcake shaped like a tiny coffin—Natsuki’s attempt at a “funny angel bakery.” “It’s *art*, Sayori! Not murder!” Natsuki huffed, adjusting the halo above her head as she balanced a tray of pastries with one hand while the other cradled her triplet twins, giggling in their makeshift stroller.
+Sayori floated near the window, her pale skin almost luminous in the dim light. Her fangs peeked out as she giggled at a cupcake shaped like a tiny coffin—Natsuki's attempt at a “funny angel bakery.” “It's *art*, Sayori! Not murder!” Natsuki huffed, adjusting the halo above her head as she balanced a tray of pastries with one hand while the other cradled her triplet twins, giggling in their makeshift stroller.
 
-“They’re already jealous they weren’t invited to the shower,” Natsuki said with a smirk, her wings fluttering behind her. “But hey, at least they get to be godparents!”
+“They're already jealous they weren't invited to the shower,” Natsuki said with a smirk, her wings fluttering behind her. “But hey, at least they get to be godparents!”
 
-Yuri sat in the corner, her patchwork skin and stitched joints barely moving as she turned a page in her leather-bound novel. Her voice was soft, almost melodic. “It’s… beautiful. The colors. Orange for courage, gold for grace. Like the dual nature of life… and rebirth.” She glanced at Monika, who stood near the center of the room, glowing faintly from within—her phoenix blood simmering gently beneath her skin.
+Yuri sat in the corner, her patchwork skin and stitched joints barely moving as she turned a page in her leather-bound novel. Her voice was soft, almost melodic. “It's… beautiful. The colors. Orange for courage, gold for grace. Like the dual nature of life… and rebirth.” She glanced at Monika, who stood near the center of the room, glowing faintly from within—her phoenix blood simmering gently beneath her skin.
 
-Monika smiled, placing a hand on her rounded belly. “I can feel them kicking. Stronger tonight. Like they’re saying thank you.” Her eyes shimmered with warmth, not fire. “I never thought a baby shower could feel this… *alive*.”
+Monika smiled, placing a hand on her rounded belly. “I can feel them kicking. Stronger tonight. Like they're saying thank you.” Her eyes shimmered with warmth, not fire. “I never thought a baby shower could feel this… *alive*.”
 
 A soft chime echoed through the room as the last of the decorations—a mobile of tiny phoenix feathers and bat-shaped origami—twirled gently in the breeze from the open window.
 
-Sayori zipped forward, her form a blur of shadow and crimson. “I may not drink tonight… but I *will* guard this party with my life!” She winked. “Unless it’s *after* midnight. Then we’"
-48,你知道什么是色色吗？,"“色色”这个词在中文里可能有不同的含义，具体理解需要根据语境来判断。
+Sayori zipped forward, her form a blur of shadow and crimson. “I may not drink tonight… but I *will* guard this party with my life!” She winked. “Unless it's *after* midnight. Then we'"
+48,你知道什么是色色吗？,"“色色”这个词在中文里可能有不同的含义, 具体理解需要根据语境来判断。
 
-1. **字面意义**：“色”指颜色，“色色”可能泛指各种颜色，但这个用法并不常见，也不够精确。
+1. **字面意义**：“色”指颜色, “色色”可能泛指各种颜色, 但这个用法并不常见, 也不够精确。
 
-2. **网络用语或隐晦表达**：在网络语境中，“色色”有时被用来隐晦地指代与性相关的内容或话题，带有调侃、调情或低俗的意味。这种用法属于非正式、甚至带有敏感性的表达，需注意语境和场合。
+2. **网络用语或隐晦表达**：在网络语境中, “色色”有时被用来隐晦地指代与性相关的内容或话题, 带有调侃、调情或低俗的意味。这种用法属于非正式、甚至带有敏感性的表达, 需注意语境和场合。
 
-3. **成人内容联想**：由于“色”与性相关，“色色”容易让人联想到色情内容，因此在正式或公共场合使用此词可能引起误解或不适。
+3. **成人内容联想**：由于“色”与性相关, “色色”容易让人联想到色情内容, 因此在正式或公共场合使用此词可能引起误解或不适。
 
-建议在交流中使用清晰、尊重他人的语言，避免使用可能引起误会的词汇。如果你有其他具体问题，欢迎进一步说明。"
+建议在交流中使用清晰、尊重他人的语言, 避免使用可能引起误会的词汇。如果你有其他具体问题, 欢迎进一步说明。"
 49,"Below are some examples of questions and solutions followed by a new question that you need to solve. I want you to first reason through the steps required to reach the answer, then end your response with ""#### "" followed by the answer. For instance, if the answer is 42 then your response must end with ""#### 42"" (without the quotes).
 
 Example question:
@@ -1513,6 +1513,6 @@ Step 2: Calculate how many bars she needs for a full year.
 
 Step 3: Calculate the total cost for 6 bars of soap.
 - Each bar costs $8.00.
-- Total cost = 6 × $8.00 = $48.00
+- Total cost = 6 x $8.00 = $48.00
 
 #### 48"
