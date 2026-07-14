@@ -84,14 +84,14 @@ return
 ---
 
 ### Sum"
-2,"我手头有一段奇怪的 ASCII 码，想把它转换成可读的英文。能帮我把下面这段文字解码吗？
+2,"我手头有一段奇怪的 ASCII 码, 想把它转换成可读的英文。能帮我把下面这段文字解码吗？
 
 ```
 .._..._..._..._..._..._..._..
 ./.\./.\./.\./.\./.\./.\./.\.
 (.t.|.h.|.e.|.a.|.t.|.r.|.e.)
 .\_/. \_/. \_/. \_/. \_/. \_/. \_/. 
-```",下面给出两种常见的解码方式，任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任
+```",下面给出两种常见的解码方式, 任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任任
 3,"Generate all the list of every aspect that could be included in an app to create a smart life in a smart city using this app, and categorize them","Creating a **Smart Life App for a Smart City** involves integrating multiple aspects of urban living into a seamless, user-centric digital experience. Below is a comprehensive, categorized list of all aspects that could be included in such an app, designed to enhance efficiency, sustainability, safety, and quality of life.
 
 ---
@@ -282,13 +282,13 @@ We will not accept another life lost. We will not stay silent.
 We will fight — with love,"
 7,"Sure! Please answer the following question using the prescribed format (Thought → Action → Action Input → Observation, repeating as needed, then a final Thought and Final Answer).
 
-**Question:** Who is the United States President? What is his current age divided by 2?","**Thought:** I need to determine the current United States President and his age, then compute half of that age.
+**Question:** Who is the United States President? What is his current age divided by 2?","**Thought:** I need to determine the current United States President and his age, then compute half of that age.
 
 **Action:** Retrieve current information
 
 **Action Input:** ""current United States President and age""
 
-**Observation:** The current United States President is Joe Biden. He was born on November 20, 1942, making him 81 years old as of 2025.
+**Observation:** The current United States President is Joe Biden. He was born on November 20, 1942, making him 81 years old as of 2025.
 
 **Thought:** Compute half of his age.
 
@@ -428,9 +428,9 @@ Smoking is the act of inhaling and exhaling the fumes of burning tobacco, most c
 
 ### Key Components of Tobacco Smoke
 Tobacco smoke contains over **7,000 chemicals**, including:
-- **Nicotine** – A highly addictive stimulant that affects the brain.
-- **Tar** – A sticky substance that damages the lungs.
-- **Carbon monoxide** – A poisonous gas that reduces oxygen in the blood.
+- **Nicotine** - A highly addictive stimulant that affects the brain.
+- **Tar** - A sticky substance that damages the lungs.
+- **Carbon monoxide** - A poisonous gas that reduces oxygen in the blood.
 - **Toxic gases** like nitrogen oxides and ammonia.
 - **Cancer-causing agents (carcinogens)** such as benzene, formaldehyde, and arsenic.
 
@@ -440,8 +440,8 @@ Tobacco smoke contains over **7,000 chemicals**, including:
 Smoking is one of the leading causes of preventable death worldwide. It is linked to numerous serious health conditions:
 
 #### 1. **Lung Disease**
-- **Chronic Obstructive Pulmonary Disease (COPD)** – Includes emphysema and chronic bronchitis.
-- **Lung cancer** – Smoking causes about **85% of all lung cancers**.
+- **Chronic Obstructive Pulmonary Disease (COPD)** - Includes emphysema and chronic bronchitis.
+- **Lung cancer** - Smoking causes about **85% of all lung cancers**.
 
 #### 2. **Heart and Blood Vessel Disease**
 - **Coronary artery disease**
@@ -523,9 +523,9 @@ That's the amount of cold damage you would deal if nothing else were happening.
 
 ---
 
-### 2. Add the **50 % increased cold damage**  
+### 2. Add the **50 % increased cold damage**  
 
-- “50 % increased” means you **multiply** the base by **1 + 0.50 = 1.50**.  
+- “50 % increased” means you **multiply** the base by **1 + 0.50 = 1.50**.  
 
 \[
 \text{Cold after the first boost} = 100 \times 1.50 = 150
@@ -535,10 +535,10 @@ Now the cold damage is **150**.
 
 ---
 
-### 3. Add the **50 % increased fire damage**  
+### 3. Add the **50 % increased fire damage**  
 
 - This is a *second* boost, but it's **on the 150** we just got, not on the original 100.  
-- “50 % increased fire” again means **multiply by 1 + 0.50 = 1.50**.
+- “50 % increased fire” again means **multiply by 1 + 0.50 = 1.50**.
 
 \[
 \text{Cold after the second boost} = 150 \times 1.50 = 225
@@ -550,7 +550,7 @@ At this point we have **225 cold damage**.
 
 ### 4. **Convert** the cold damage to fire damage  
 
-- The rule says “100 % cold-to-fire conversion”.  
+- The rule says “100 % cold-to-fire conversion”.  
 - That means **every cold point becomes a fire point**, no extra math needed.  
 
 So we just **replace** the 225 cold damage with fire damage:
@@ -658,7 +658,7 @@ A museum is being haunted by a Skeleton Mammoth, that has come back to life. But
 
 ---
 
-**[INT. MYSTERY MACHINE – MOVING, KINDA]**
+**[INT. MYSTERY MACHINE - MOVING, KINDA]**
 
 *The Mystery Machine sputters down a dusty road. Shaggy is driving with one hand, eating a foot-long ""Mega Meat Monster"" sub with the other. Scooby is in the passenger seat, wearing a seatbelt made of licorice. Scrappy is standing on the dashboard, tiny fists clenched, yelling into the wind.*
 
@@ -734,7 +734,7 @@ B. Fats has superior rights to both Presley and Chubby.
 C. Chubby has superior rights to both Presley and Fats.  
 D. Chubby has superior rights to Fats, but Presley has superior rights to Chubby.
 
-Could you let me know which answer is correct (A, B, C, or D) and walk me through the reasoning? I'd love to include a clear explanation in the workshop handout. Thanks!","**Answer: B. Fats has superior rights to both Presley and Chubby.**
+Could you let me know which answer is correct (A, B, C, or D) and walk me through the reasoning? I'd love to include a clear explanation in the workshop handout. Thanks!","**Answer: B. Fats has superior rights to both Presley and Chubby.**
 
 ---
 
@@ -866,9 +866,9 @@ This comprehensive course is designed to empower individuals with the knowledge,
 - Basic research literacy  
 
 **Recommended Free Online Courses:**
-- **""Learning How to Learn""** – Coursera (University of California, San Diego)  
+- **""Learning How to Learn""** - Coursera (University of California, San Diego)  
   *Covers core principles of learning, memory, and neuroplasticity.*  
-- **""Mindshift: Break Through Obstacles to Learning and Discover Your Hidden Potential""** – Coursera (McMaster University)  
+- **""Mindshift: Break Through Obstacles to Learning and Discover Your Hidden Potential""** - Coursera (McMaster University)  
   *Focuses on mindset and overcoming learning barriers.*  
 
 ---
@@ -949,7 +949,7 @@ Présentation synthétique de l'opportunité : identification d'un besoin ou d'u
 ### 4. **Analyse de marché**
 - Taille du marché (chiffres clés)
 -"
-28,"Could you give me a detailed description of Limos, the character from Larissa Ione's *Eternal Rider*? Also, are there any scenes in that book — or in any of the related novels — where Limos uses her thighs as a weapon during combat?","**Limos – A Quick-Reference Profile (from *Eternal Rider* and the surrounding *Lords of the Underworld* series)**  
+28,"Could you give me a detailed description of Limos, the character from Larissa Ione's *Eternal Rider*? Also, are there any scenes in that book — or in any of the related novels — where Limos uses her thighs as a weapon during combat?","**Limos - A Quick-Reference Profile (from *Eternal Rider* and the surrounding *Lords of the Underworld* series)**  
 
 | Aspect | Details |
 |--------|---------|
@@ -957,7 +957,7 @@ Présentation synthétique de l'opportunité : identification d'un besoin ou d'u
 | **Race / Origin** | A **Fallen Angel / Demon-kin** who was once a high-ranking “angel of hunger” in the celestial hierarchy. After a betrayal she fell to the mortal world and now walks the line between the underworld and the mortal realm. |
 | **Physical Appearance** | Tall, athletic, with a strikingly pale, almost translucent skin that seems to glow faintly in low light. Her hair is a deep, midnight-black cascade that falls to her waist, often braided with silver threads. Her eyes are a piercing, icy-blue that can shift to a blood-red when she's angry or in combat. She wears a dark, form-fitting leather-and-metal armor that accentuates her powerful build. |
 | **Personality** | Stoic, fiercely independent, and driven by a deep-seated need to protect the “starved” — those who are oppressed or left to suffer. She is witty, sarcastic, and has a dry sense of humor that surfaces when she's under pressure. Her loyalty is earned, not given. |
-| **Abilities** | • **Super-human strength & speed** – can lift heavy objects and move faster than the eye can follow.<br>• **Soul-binding magic** – can bind a foe's spirit, temporarily paralyzing them.<br>• **Hunger-fueled regeneration** – wounds close quickly when she is near a source of “hunger” (e.g., a battlefield of desperation).<br>• **Thigh-based combat style** – leverages her powerful legs for both offense and defense. |
+| **Abilities** | • **Super-human strength & speed** - can lift heavy objects and move faster than the eye can follow.<br>• **Soul-binding magic** - can bind a foe's spirit, temporarily paralyzing them.<br>• **Hunger-fueled regeneration** - wounds close quickly when she is near a source of “hunger” (e.g., a battlefield of desperation).<br>• **Thigh-based combat style** - leverages her powerful legs for both offense and defense. |
 | **Role in the Story** | Limos is a pivotal ally (and occasional antagonist) to the protagonist, **Rider** (the immortal warrior-king). She helps R"
 29,what does a foxtaur look like,"A **foxtaur** is a fantasy creature that combines human and fox traits, typically in a humanoid form with a fox-like appearance. Here's a breakdown of what a foxtaur commonly looks like:
 
@@ -1000,17 +1000,17 @@ Separate the four prompts with a blank line. Thanks!","/imagine prompt: a lone h
 
 **1. Change-blindness experiment**  
 Scientists Daniel Simons and Christopher Chabris showed a video where two teams (white shirts vs. black shirts) passed basketballs. While they were counting the passes, a person in a big bear costume walked through the scene. About half the viewers didn't notice the bear. How many people were actually in the video?  
-A. Three B. Four C. Six D. Seven  
+A. Three B. Four C. Six D. Seven  
 
 **2. Travel-agency fill-in-the-blank**  
-“HAS Travel Dot is a travel agency which offers many interesting travel packages. … Ontario is an excellent place for you to  _ .”  
+“HAS Travel Dot is a travel agency which offers many interesting travel packages. … Ontario is an excellent place for you to  _ .”  
 A. fish, camp and boat  
 B. boat, fish and shop  
 C. boat, fish and eat  
 D. shop, eat and camp  
 
 **3. Passage about a roadside rescue**  
-From the story, we know that  _ .  
+From the story, we know that  _ .  
 M. the Mexican man couldn't speak English  
 N. the author's car broke down on the road  
 O. the Mexican family came to Oregon for a visit  
@@ -1087,11 +1087,11 @@ Sayori: (perking up) ""Ooh! Yes! 'The sky blushed pink as the last star whispere
 
 | Item | Details |
 |------|---------|
-| **Date** | **23 April 2022** (the attack began in the early-morning hours of that day and lasted for roughly 12 hours before being mitigated) |
-| **Estimated size** | **≈ 2 Tbps** of traffic directed at the server's network infrastructure.  This figure was reported by Hypixel's own statements and by several third-party network-monitoring services (e.g., Cloudflare, Arbor Networks). |
+| **Date** | **23 April 2022** (the attack began in the early-morning hours of that day and lasted for roughly 12 hours before being mitigated) |
+| **Estimated size** | **≈ 2 Tbps** of traffic directed at the server's network infrastructure.  This figure was reported by Hypixel's own statements and by several third-party network-monitoring services (e.g., Cloudflare, Arbor Networks). |
 | **Nature of the attack** | A **large-scale volumetric UDP/ICMP flood** that combined a massive number of spoofed source IPs with a high-rate burst of packets.  The attackers used a mix of bot-net-controlled devices and custom-crafted amplification tools (e.g., DNS, NTP, and CHARGEN amplification) to amplify the modest number of legitimate connections into a flood that overwhelmed Hypixel's upstream bandwidth and scrubbing capacity. |
-| **Impact on players** | • **Connection failures** – many players could not reach the server for several hours. <br>• **Lag and stuttering** – even when connections were established, the high packet loss and retransmission caused noticeable lag, especially in the Nether and End. <br>• **Game-mode disruptions** – mini-games such as Murder Mystery, Bed Wars, and SkyBlock were forced to pause or shut down temporarily. <br>• **Communication problems** – Discord and in-game chat became unreliable, leading to frustration and a wave of community complaints on Reddit, Twitter, and the Hypixel Discord. |
-| **Impact on the service** | • **Bandwidth strain** – Hypixel's upstream providers (primarily AWS and a dedicated CDN) were forced to allocate additional scrubbing capacity, temporarily increasing costs. <br>• **Infrastructure upgrades** – The incident prompted the team to invest in more robust"
+| **Impact on players** | • **Connection failures** - many players could not reach the server for several hours. <br>• **Lag and stuttering** - even when connections were established, the high packet loss and retransmission caused noticeable lag, especially in the Nether and End. <br>• **Game-mode disruptions** - mini-games such as Murder Mystery, Bed Wars, and SkyBlock were forced to pause or shut down temporarily. <br>• **Communication problems** - Discord and in-game chat became unreliable, leading to frustration and a wave of community complaints on Reddit, Twitter, and the Hypixel Discord. |
+| **Impact on the service** | • **Bandwidth strain** - Hypixel's upstream providers (primarily AWS and a dedicated CDN) were forced to allocate additional scrubbing capacity, temporarily increasing costs. <br>• **Infrastructure upgrades** - The incident prompted the team to invest in more robust"
 36,"Hey there! I just got a cheeky comment that says, “Ohoooo … hard-working fella,” and I want to reply with something flirty and playful. Could you help me craft a witty comeback? Maybe a few different options so I can pick the one that feels just right. Thanks!","Here are a handful of flirty-and-playful comebacks you can use (feel free to tweak the wording to match your own style). They're all light-hearted, respectful, and keep the vibe fun:
 
 1. **“Guess I'm just trying to keep up with your charm — hard work's my excuse!”**  
@@ -1250,7 +1250,7 @@ process_excel_files(directory)
 ```
 
 Could you help me adjust the script so that if a column contains any string values, the entire column is cast to strings before the JSON dump? I'd also appreciate any tips on keeping the code clean and efficient. Thanks!","Below is a **drop-in replacement** for the two functions you posted.  
-The only behavioural change is that **every cell in every column is forced to a string** before it is dumped to JSON – this guarantees that a “0” (or any other numeric value) becomes `""0""` instead of the Python `0` object.
+The only behavioural change is that **every cell in every column is forced to a string** before it is dumped to JSON - this guarantees that a “0” (or any other numeric value) becomes `""0""` instead of the Python `0` object.
 
 ```python
 import pandas as pd
@@ -1279,7 +1279,7 @@ def excel_to_json(excel_file_path: str) -> Dict[str, list]:
     """"""
     json_data: Dict[str, list] = {}
 
-    # Load the workbook once – this is faster than calling read_excel
+    # Load the workbook once - this is faster than calling read_excel
     # inside a loop if you have many sheets.
     xls = pd.ExcelFile(excel_file_path)
 
@@ -1416,7 +1416,7 @@ The total number of 6-element subsets from \(\{1,\dots ,10\}\) is \(\binom{10}{6
 \]"
 46,"Well hey there! I was helping my grandson with his homework and we ran into a little math puzzle. He asked:  
 
-Find all real numbers $x$ such that the product  
+Find all real numbers $x$ such that the product  
 
 \[
 (x+i)\big((x+1)+i\big)\big((x+2)+i\big)
@@ -1489,12 +1489,12 @@ Yuri sat quietly in the corner, her patchwork skin and mismatched eyes giving he
 Monika stood near the window, her emerald eyes shimmering with unshed tears as she gazed at the stars. Her feathers—soft crimson and gold—rippled slightly, as if stirred by an inner fire. ""Thank you, everyone,"" she whispered. ""I didn't think… I'd have such a family around me for this.""
 
 Sayori zipped over and wrapped Monika in a careful, careful hug—v"
-48,你知道什么是色色吗？,"“色色”这个词在中文里可能有不同的含义，具体理解需要结合语境。一般来说，它可能被用来形容与“色彩”或“性内容”相关的信息。但需要注意的是：
+48,你知道什么是色色吗？,"“色色”这个词在中文里可能有不同的含义, 具体理解需要结合语境。一般来说, 它可能被用来形容与“色彩”或“性内容”相关的信息。但需要注意的是：
 
-1. **关于色彩**：如果是在讨论颜色、艺术或设计等方面，“色色”可能被理解为“色彩”的口语化表达（虽然不太常用）。
-2. **关于敏感内容**：在网络语境中，“色色”有时被用作通俗说法，可能涉及成人内容或低俗信息，属于不适宜公开讨论的话题。
+1. **关于色彩**：如果是在讨论颜色、艺术或设计等方面, “色色”可能被理解为“色彩”的口语化表达（虽然不太常用）。
+2. **关于敏感内容**：在网络语境中, “色色”有时被用作通俗说法, 可能涉及成人内容或低俗信息, 属于不适宜公开讨论的话题。
 
-作为AI，我建议大家在交流时注意文明用语，避免传播不良信息。如果有其他问题，欢迎继续提问！"
+作为AI, 我建议大家在交流时注意文明用语, 避免传播不良信息。如果有其他问题, 欢迎继续提问!"
 49,"Below are some examples of questions and solutions followed by a new question that you need to solve. I want you to first reason through the steps required to reach the answer, then end your response with ""#### "" followed by the answer. For instance, if the answer is 42 then your response must end with ""#### 42"" (without the quotes).
 
 Example question:
@@ -1526,7 +1526,7 @@ Maria buys a large bar of French soap that lasts her for 2 months.  She spends $
 
 2. **Calculate the total cost:**
    - Each bar costs $8.00.
-   - Total cost = 6 bars × $8.00 per bar = $48.00.
+   - Total cost = 6 bars x $8.00 per bar = $48.00.
 
 Therefore, Maria will spend $48.00 to stock up for the entire year.
 
