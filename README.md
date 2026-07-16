@@ -25,6 +25,6 @@ Esta dimensão avalia as quantização, mapeando o ponto de rutura onde o modelo
 * **Teste C (`smol-rewrite-PT`):** Avalia a reescrita e adaptação de tom, medindo a capacidade do modelo adaptar o texto para um tom pedido, preservando o seu significado principal.
 
 ### 2. Integridade Cognitiva e Cultural
-* **Teste D (`pt_exams`):** Avalia a Lógica e Raciocínio. Utiliza perguntas reais dos exames nacionais do sistema de ensino português para testar a degradação da inferência sob compressão. O dataset pt_exams apresenta 6 subjects direntes, sendo que foi analisado apenas o subject Portuguese.
+* **Teste D (`pt_exams`):** Avalia a Lógica e Raciocínio. Utiliza perguntas reais dos exames nacionais do sistema de ensino português para testar a degradação da inferência sob compressão. O dataset pt_exams apresenta 6 subjects diferentes.
 * **Teste E (`alba_mcq`):** Avalia o conhecimento linguístico endémico. Testa provérbios, expressões idiomáticas e usos semânticos exclusivos de Portugal.
 * **Teste F (`cultura-viva-pt-mcq`):** Avalia a Memória Factual. Testa o conhecimento sobre história, geografia e personalidades de Portugal, identificando o nível de quantização em que o modelo começa a gerar alucinações de forma confiante.
