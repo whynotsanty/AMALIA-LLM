@@ -6,7 +6,7 @@ import pandas as pd
 def extrair_resposta_final(caminho_ficheiro):
     print(f"A limpar raciocínios em: {caminho_ficheiro}")
     
-    # 1. Carregar o CSV garantindo o separador correto e tratando strings textuais
+    # 1. Carregar o CSV garantindo o separador correto
     try:
         df = pd.read_csv(caminho_ficheiro, sep=';', on_bad_lines='skip')
     except Exception as e:
@@ -32,18 +32,33 @@ def extrair_resposta_final(caminho_ficheiro):
         
         if match:
             letra = match.group(1).upper()
-            # Devolve no formato ;Letra; que queres para o teu mapeamento final
-            return f";{letra};"
+            # Colocamos a estrutura base da letra
+            return f";{letra};{letra}"
         
-        # Se não encontrar a tag, mantém o original para saberes que houve falha no modelo
         return texto
 
-    # Apply a limpeza a toda a coluna
+    # Aplica a limpeza a toda a coluna
     df[coluna_alvo] = df[coluna_alvo].apply(limpar_linha)
 
-    # 2. Gravar de volta mantendo o formato original com ponto e vírgula
+    # 2. Gravar temporariamente com o pandas (ele vai meter aspas por causa dos ponto e vírgula)
     df.to_csv(caminho_ficheiro, sep=';', index=False, encoding='utf-8')
-    print(f"✓ Ficheiro {os.path.basename(caminho_ficheiro)} limpo com sucesso!\n")
+
+    # 3. Pós-processamento de Texto Bruto: Remove as aspas geradas automaticamente pelo Pandas
+    with open(caminho_ficheiro, 'r', encoding='utf-8') as f:
+        conteudo_limpo = f.read()
+
+    # Procura padrões como ";C;C" ou C;C;" e limpa as aspas indesejadas
+    conteudo_limpo = re.sub(r'(";([A-D]);([A-D])")', r';\2;\3', conteudo_limpo)
+    conteudo_limpo = re.sub(r'";([A-D]);";([A-D]);"', r';\1;\2', conteudo_limpo)
+    
+    # Remove aspas literais duplas remanescentes que fiquem coladas às letras das respostas
+    conteudo_limpo = re.sub(r'"?([A-D])"?;"?([A-D])"?', r'\1;\2', conteudo_limpo)
+
+    # 4. Grava o ficheiro final sem aspas na coluna de resposta
+    with open(caminho_ficheiro, 'w', encoding='utf-8', newline='') as f:
+        f.write(conteudo_limpo)
+
+    print(f"✓ Ficheiro {os.path.basename(caminho_ficheiro)} limpo e formatado como ;C;C com sucesso!\n")
 
 def processar_pasta(pasta):
     ficheiros_csv = glob.glob(os.path.join(pasta, "*.csv"))
