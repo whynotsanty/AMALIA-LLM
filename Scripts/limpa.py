@@ -20,24 +20,23 @@ def processar_no_proprio_ficheiro(caminho_ficheiro):
     padrao_duplo_n = r'\\n\s*\\n'
     conteudo_processado = re.sub(padrao_duplo_n, r'\\n', conteudo_processado)
 
-    # --- REGRA 4: Substituir ;1; por A, ;2; por B, ;3; por C, ;4; por D ---
-    # Criamos um mapeamento dos números para as respetivas letras
-    mapeamento = {'1': 'A', '2': 'B', '3': 'C', '4': 'D'}
+    # --- REGRA 4: Mapeamento baseado em índice 0 (0->A, 1->B, 2->C, 3->D) ---
+    mapeamento = {'0': 'A', '1': 'B', '2': 'C', '3': 'D'}
     
     # A função determina o que colocar com base no número capturado no Grupo 1
     def substituir_por_letra(match):
         numero = match.group(1)
-        return mapeamento[numero]
+        return f";{mapeamento[numero]};"
 
-    # Procuramos o padrão ;[1-4]; e aplicamos a substituição
-    padrao_letras = r';([1-4]);'
+    # Procuramos o padrão ;[0-3]; e aplicamos a substituição mantendo os ; delimitadores
+    padrao_letras = r';([0-3]);'
     conteudo_processado = re.sub(padrao_letras, substituir_por_letra, conteudo_processado)
 
     # 2. Gravar de volta no próprio ficheiro, substituindo o conteúdo anterior
     with open(caminho_ficheiro, 'w', encoding='utf-8', newline='') as f:
         f.write(conteudo_processado)
         
-    print(f"Ficheiro {os.path.basename(caminho_ficheiro)} atualizado com sucesso!\n")
+    print(f"✓ Ficheiro {os.path.basename(caminho_ficheiro)} atualizado com sucesso!\n")
 
 def processar_pasta(pasta):
     ficheiros_csv = glob.glob(os.path.join(pasta, "*.csv"))
@@ -51,5 +50,6 @@ def processar_pasta(pasta):
 
 # --- EXECUÇÃO ---
 if __name__ == "__main__":
+    # Executa na pasta atual onde o script for colocado
     pasta_alvo = "./" 
     processar_pasta(pasta_alvo)
