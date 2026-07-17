@@ -1,0 +1,19 @@
+Teste;Modelo;NPM_Score
+Teste D;BF16;87.88
+Teste D;Q8_0;68.0
+Teste D;Q5_K_M;65.33
+Teste D;Q4_K_M;57.33
+Teste D;Q3_K_M;52.0
+Teste D;Q2_K;46.67
+Teste E;BF16;51.11
+Teste E;Q8_0;42.22
+Teste E;Q5_K_M;33.33
+Teste E;Q4_K_M;24.44
+Teste E;Q3_K_M;20.0
+Teste E;Q2_K;15.56
+Teste F;BF16;52.0
+Teste F;Q8_0;46.67
+Teste F;Q5_K_M;44.0
+Teste F;Q4_K_M;41.33
+Teste F;Q3_K_M;36.0
+Teste F;Q2_K;33.33
