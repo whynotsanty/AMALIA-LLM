@@ -1,69 +1,82 @@
-# Avaliação Multidimensional da Quantização do Modelo AMALIA-9B para Português de Portugal
+# Avaliação Automatizada da Quantização do Modelo AMALIA-9B em Português Europeu: Validação de um Pipeline *Human-in-the-Loop* com *LLM-as-a-Judge*
 
-## 1. Resumo
-
-Este artigo apresenta uma investigação técnica sobre o impacto da compressão por quantização no modelo AMALIA-9B, otimizado para a variante linguística do Português de Portugal (PT-PT). Através de uma metodologia rigorosa que integra LLM-as-a-Judge e Human-in-the-Loop (HiTL), avaliou-se a preservação da integridade semântica e sintática face à redução de precisão numérica. Os resultados quantitativos revelam um Erro Médio Absoluto (Mean Absolute Error - MAE) de 0,6111. Este valor, embora demonstre a robustez da arquitetura original, exige uma análise qualitativa profunda para garantir que nuances críticas da norma europeia do português não sejam obscurecidas por métricas de desempenho global.
-
-## 2. Introdução
-
-Contextualização A trajetória dos Modelos de Linguagem de Larga Escala (LLMs) revela uma expansão sem precedentes, escalando de 1 bilião de parâmetros em 2018 para arquiteturas que ultrapassam os 100 biliões em 2024. Segundo documentado na framework COMPRESS AND COMPARE, esta escalabilidade acarreta custos computacionais e financeiros que tornam a implementação em infraestruturas locais ou dispositivos de utilizador final um desafio de engenharia significativo.
-
-O Desafio da Compressão A quantização surge como uma técnica imperativa para viabilizar a execução on-device do AMALIA-9B, visando reduzir a latência e a ocupação de recursos sem degradar a precisão linguística. Para o Português de Portugal, o desafio é particularmente acutilante: o processo de compressão não deve neutralizar especificidades como a colocação pronominal (ênclise e mesóclise) ou o léxico lusitano, sob risco de convergência para variantes com maior disponibilidade de recursos, como o Português do Brasil.
-
-Objetivo do Estudo O presente estudo avalia o equilíbrio entre a eficiência técnica e a preservação da qualidade semântica, procurando determinar se o modelo comprimido mantém a identidade linguística exigida para aplicações críticas em Portugal.
-
-## 3. Fundamentação Teórica: Técnicas de Quantização e Benchmarking
-
-Mecânicas de Quantização Com base na framework PQ Bench, a quantização é definida pela conversão de pesos e ativações de formatos de alta precisão (tipicamente FP32) para tipos de menor precisão, como INT8 ou FP16. Este mapeamento permite reduzir a complexidade aritmética e otimizar o processamento em hardware especializado.
-
-Vantagens Competitivas Dados do PQ Bench sustentam que a quantização geralmente supera o pruning (poda de parâmetros) na preservação da acurácia e na redução da pegada de memória (memory footprint). Enquanto o pruning não estruturado pode gerar padrões de esparsidade ineficientes, a quantização mantém a topologia do modelo, facilitando ganhos previsíveis em hardware compatível.
-
-Desafios Técnicos (C1 a C4) Identificamos quatro desafios fundamentais no design de modelos comprimidos:
-
-* C1: A estratégia ideal é inerentemente específica para a tarefa e o modelo; não existe uma solução universal.
-* C2: A compressão exige compromissos humanos entre métricas de memória, tempo e precisão diagnóstica.
-* C3: As métricas de topo (como acurácia global) podem ocultar mudanças comportamentais subtis, especialmente em subgrupos linguísticos raros.
-* C4: A compressão pode introduzir efeitos indesejados nas camadas internas, dificultando o diagnóstico sem ferramentas de inspeção avançadas.
-
-##  4. Metodologia de Avaliação
-
-Implementou-se uma abordagem híbrida multidimensional:
-
-1. LLM-as-a-Judge: Utilização de modelos de escala superior para auditar a coerência lógica e a fluidez das respostas.
-2. Human-in-the-Loop (HiTL): Intervenção de especialistas para validar a manutenção de normas gramaticais de PT-PT que métricas automatizadas tendem a ignorar.
-3. Métricas de Desempenho: Utilização do Mean Absolute Error (MAE) como indicador primário da divergência entre as distribuições de probabilidade do modelo original e do quantizado.
-4. Visual Analytics: Utilização da ferramenta COMPRESS AND COMPARE, especificamente o Model Map, para identificar a estrutura de ramificação das receitas de compressão, e a vista de Selection Details para isolar as variáveis que explicam as diferenças de desempenho. A análise da Curva de Pareto foi central para filtrar as variantes do AMALIA-9B que melhor satisfazem os orçamentos de latência e memória.
-
-##  5. Resultados e Análise de Benchmarking
-
-O desempenho geral do AMALIA-9B quantizado fixou-se num MAE de 0,6111.
-
-Interpretação Estatística
-
-* Aceitabilidade: O erro de 0,6111 é considerado aceitável para aplicações de produção, indicando uma divergência controlada na confiança do modelo.
-* Robustez: O valor sugere que o modelo original possui redundância paramétrica suficiente para suportar a redução de precisão sem colapso semântico.
+## Resumo 
+A implantação de Grandes Modelos de Linguagem (LLMs) em ambientes com recursos computacionais limitados (*edge computing*) exige o recurso a técnicas de compressão, nomeadamente a quantização dos pesos neuronais. Contudo, a quantização agressiva tende a induzir uma degradação severa nas capacidades de raciocínio lógico e na fidelidade linguística, um problema particularmente premente em variantes com menor representação analítica, como o Português Europeu (pt-PT). O presente artigo documenta o *benchmarking* do modelo AMALIA-9B ao longo de seis resoluções de quantização, validando um sistema de avaliação automática (*LLM-as-a-Judge*) calibrado através de um rigoroso protocolo *Human-in-the-Loop* (HITL). A análise estatística comprova um alinhamento forte (Correlação de Pearson = 0.7590; Kappa = 0.6102) entre o julgamento automático e a anotação do especialista humano, atestando a fiabilidade metodológica para a avaliação em larga escala de tarefas de geração, tradução e reescrita de texto.
 
 
-### Trade-offs Eficiência-Acurácia
 
-| Métrica | Modelo Original (FP32) | AMALIA-9B Quantizado (INT8) | Impacto / Observação |
+## 1. Introdução
+
+A adoção generalizada de Grandes Modelos de Linguagem (LLMs) revolucionou o Processamento de Linguagem Natural, contudo, a sua colossal escala de parâmetros (frequentemente na ordem das dezenas de milhares de milhões) impõe constrangimentos proibitivos de armazenamento e latência de inferência. Para viabilizar a execução de modelos como o AMALIA-9B em ambientes locais ou servidores de capacidade intermédia, a indústria tem adotado técnicas de compressão por quantização pós-treino (PTQ). Este processo converte os pesos de elevada precisão (como o ponto flutuante de 32 ou 16 bits - FP32/BF16) em formatos discretos de menor resolução matemática (ex: INT8, formatos "K-quant" como Q5_K_M, Q4_K_M ou Q2_K). Num modelo com biliões de parâmetros, esta compressão permite uma redução drástica na pegada de memória, frequentemente diminuindo os requisitos de ~36 GB para menos de 9 GB, salvaguardando a latência da inferência a troco de uma potencial erosão nas capacidades generativas.
+
+No contexto do Português Europeu, o impacto desta erosão carece de referenciais de teste rigorosos. Uma vasta porção dos *benchmarks* atuais assenta em traduções automatizadas a partir do Inglês ou padece de um forte viés para a norma do Português do Brasil (pt-BR). O ecossistema concebido para o projeto AMALIA-9B endereça esta lacuna através de uma bateria abrangente: os Testes de Geração Escrita (A a C, cobrindo conversação, tradução e reescrita) e os Testes de Escolha Múltipla (D a F). Cada ficheiro avalia um espectro de 6 níveis de quantização aplicados a 49 interações.
+
+O problema central de investigação reside no gargalo da validação. Avaliar manualmente milhares de respostas requer um esforço hercúleo. A delegação desta tarefa num avaliador automatizado (*LLM-as-a-Judge*, à semelhança do testado no *benchmark* recente ALBA para pt-PT) levanta o desafio da sua própria fiabilidade. Torna-se imperativo validar se o Juiz automático é estatisticamente robusto e se está solidamente alinhado com o escrutínio de um especialista humano nativo em pt-PT, de forma a validar integralmente o *pipeline* de avaliação das quantizações do modelo.
+
+
+
+## 2. Metodologia e Protocolo de Validação (HITL)
+
+Para aferir a eficácia do modelo AMALIA-9B e a degradação introduzida por cada quantização, arquitetou-se um avaliador generativo (um LLM avançado em modo *High Thinking* e Temperatura zero) encarregado de classificar as respostas.
+
+### 2.1. Arquitetura do Juiz
+O *prompt* do Juiz LLM foi estruturado sob a matriz de uma escala de Likert de 1 a 5, escrutinando a resposta gerada com base na Solução de Referência e no Problema Original. O sistema foi calibrado para observar rigorosamente três eixos:
+1. **Precisão:** Deteção de coesão lógica, adequação dos factos e ausência de alucinações empíricas.
+2. **Qualidade Linguística:** Adesão estrita à norma europeia (pt-PT). O juiz foi explicitamente instruído a penalizar a presença de gerúndios desnecessários, traduções literais em inglês e sintaxe ou vocabulário intrinsecamente brasileiros (ex: penalizar "a gente se move" ou "café da manhã").
+3. **Completude:** O grau com que o modelo cumpriu todas as diretrizes da instrução original.
+
+### 2.2. Protocolo *Human-in-the-Loop* (HITL)
+Por forma a estabelecer uma base de verdade (*ground truth*), implementou-se um protocolo de validação por humanos, materializado no *dataset* `HITL.csv`. 
+Aplicou-se uma Amostragem Estratificada (*Stratified Sampling*), garantindo a cobertura dos testes de escrita (A, B e C) através de várias quantizações (como BF16, Q8_0, Q5_K_M e Q2_K) para obter diversidade nas classes de erro. Adicionalmente, estabeleceu-se um protocolo de Anotação Duplo-Cego (*Double-Blind Annotation*) quando possível para mitigar o viés de confirmação, e procedeu-se à validação exaustiva de todas as respostas inerentes à quantização destrutiva Q2_K no Teste A. O perito humano assinalou uma nota final e documentou qualitativamente as suas avaliações numa grelha de observações (*obs*).
+
+### 2.3. Validação Estatística do Acordo Inter-Anotador
+O rigor científico do alinhamento entre o humano e o juiz automático foi medido por um conjunto de métricas não apenas de escala linear, mas de natureza ordinal:
+* **Erro Médio Absoluto (MAE):** Avalia o desvio médio na escala de 1 a 5 pontos.
+* **Correlação de Pearson (\\(r\\)):** Mede a associação linear forte entre as séries de classificações.
+* **Correlação de Spearman (\\(\rho\\)):** Mede a dependência monotónica, fundamental por se tratar de notas ordinais que não possuem distâncias perfeitamente proporcionais.
+* **Linear Weighted Cohen's Kappa (\\(k\\)):** Considerado o padrão-ouro na linguística computacional para medir a concordância entre os avaliadores enquanto elimina a probabilidade de concordância fruto do acaso.
+
+
+
+## 3. Resultados e Benchmarking do Modelo
+
+O cruzamento dos julgamentos do especialista (extraídos do log HITL) com as pontuações independentes do *LLM-as-a-Judge* resultou no referencial empírico central desta investigação.
+
+### 3.1. Métricas da Validação Automática
+Numa amostragem validada (N = 18 amostras cruzadas) do "Relatório de Validação HITL", os dados extraídos comprovaram um grau de fiabilidade e precisão notáveis:
+
+| Métrica de Alinhamento | Valor Obtido | Grau de Confiança / P-value | Significado Estatístico |
 | :--- | :---: | :---: | :--- |
-| **Precisão (MAE)** | 0.0000 (Base) | 0.6111 | Divergência Marginal |
-| **Pegada de Memória** | ~36 GB | ~9 GB | Redução de 4x (75%) |
-| **Latência** | Elevada | Baixa (Otimizada)* | Viabilização técnica em edge |
+| **Erro Médio Absoluto (MAE)** | 0.6111 | N/A | Excelente precisão num espetro de 1 a 5. |
+| **Correlação de Pearson (r)** | 0.7590 | 2.60e-04 (Muito Forte) | Relação linear indiscutível (sem margem para o acaso). |
+| **Correlação de Spearman (ρ)** | 0.7343 | 5.21e-04 (Muito Forte) | Ordens de magnitude hierarquizadas quase em perfeito acordo. |
+| **Linear Weighted Cohen's Kappa (k)** | 0.6102 | Forte / Substancial | Excelente concordância inter-avaliadores mitigando o acaso. |
 
-*Nota de Cautela: De acordo com as evidências do PQ Bench, a redução da latência em INT8 depende criticamente do suporte de hardware (ex: Tensor Cores NVIDIA Ampere ou superior). Em hardware sem suporte nativo para operações de inteiros, a quantização pode, paradoxalmente, aumentar o tempo de inferência devido a conversões de tipos de dados dispendiosas (costly data type conversions).
+### 3.2. Análise do Trade-off de Quantização (Eficiência vs. Acurácia)
+O *benchmarking* quantitativo aplicado ao AMALIA-9B confirma os princípios elementares da compressão. Os testes de avaliação automática evidenciaram que nos regimes próximos da precisão de base (como a resolução Q8_0 e Q5_K_M), a métrica semântica sobrevive sem erosão documentada. Observa-se que níveis de quantização como o formato **Q4_K_M** atingem o ponto ideal da fronteira de Pareto: compressão na ordem dos 4-bits proporciona poupança crítica em tempo de inferência e capacidade (VRAM) reduzindo os tamanhos para cerca de ~5 GB, ao passo que as notas se mantêm predominantemente na ordem dos 4 a 5 pontos. Pelo contrário, à medida que se desce até à redução limite (Q2_K a ~2.7 bits), assiste-se ao colapso total da rede neuronal na coerência sintática, na exatidão e na retenção do registo local.
 
-## 6. Discussão: Artefactos e Comportamentos Indesejados
 
-Análise de Erros e Viés Linguístico Embora o MAE de 0,6111 seja reduzido, o desafio C3 alerta-nos de que métricas globais podem mascarar degradações em subgrupos. Em estudos análogos (CelebA/ResNet), observou-se que a compressão pode aumentar o erro em atributos sub-representados em mais de 100% (chegando a ~145%), mesmo mantendo a acurácia global estável. Transpondo para o AMALIA-9B, existe o risco de o modelo "esquecer" construções raras do Português de Portugal ou tornar-se excessivamente confiante em respostas gramaticalmente incorretas. A validação HiTL é, portanto, indispensável para garantir que a "colocação pronominal" e outras especificidades lusitanas não foram degradadas.
 
-Influência da Arquitetura e Sensibilidade das Camadas A análise via Layers tab demonstrou que a compressão não afeta o modelo uniformemente. Tal como no caso de estudo do T5-Large, as camadas de normalização mostraram-se críticas: embora representem uma fração minúscula do total de pesos do modelo, a sua compressão agressiva é responsável por uma parcela desproporcional do erro de geração. No AMALIA-9B, a preservação da precisão nestas camadas foi vital para manter a estabilidade das ativações.
+## 4. Discussão e Análise Crítica de Erros (*Error Analysis*)
 
-Especificidade PT-PT A viabilização técnica do modelo em dispositivos finais não deve ser feita à custa da "neutralização" regional. O MAE obtido demonstra que o AMALIA-9B é robusto, mas a inspeção visual do comportamento das camadas revela que a calibração pós-quantização deve focar-se nos módulos de atenção que processam dependências sintáticas longas, típicas da prosa literária e técnica portuguesa.
+A robustez da matriz estatística não iliba o sistema de fricções avaliativas. A dissecção aprofundada do ficheiro empírico `HITL.csv`, com especial atenção à coluna qualitativa `obs`, revelou anomalias altamente ilustrativas sobre a perceção ontológica do juiz LLM versus o especialista humano.
 
-## 7. Conclusão
+### 4.1. O "Viés de Complexidade" nas Interações Sociais
+Verifica-se sistematicamente um "viés de complexidade" (ou foco excessivo no erro estrutural) por parte do Juiz Automático. O fenómeno manifestou-se repetidamente em interações fáceis de cariz social e cortesias. Por exemplo, em entradas onde o modelo base AMALIA respondeu unicamente "De nada!" a perguntas que terminavam em construtos como "Muito obrigado pelas dicas!" (visível nos índices A_Q2_8, A_Q2_14 ou no A_BF_33), o especialista humano atribuiu notas máximas (5) com a observação *"foi muito conciso"*. Para o anotador nativo, a adequação social, a concisão e a fluidez pragmática representam uma resposta irrepreensível em conversação. 
 
-O AMALIA-9B quantizado demonstra uma viabilidade técnica notável, equilibrando uma redução de 75% na ocupação de memória com uma preservação substantiva da qualidade (MAE 0,6111). A robustez evidenciada permite a sua implementação em cenários de computação de fronteira (edge computing), desde que o hardware suporte eficientemente aritmética de inteiros.
+Em contrapartida, o LLM a atuar como juiz detém um viés implícito por formulações longas, analíticas e textualmente expansivas. Em consequência, frequentemente categorizou interações simples de agradecimento como falhas em desenvolver um "raciocínio gerado", atribuindo-lhes notas severas na ordem do 1 ou 2. É este subconjunto desbalanceado e restrito (em que perguntas terminavam com agradecimentos induzindo o "de nada" sistémico do gerador) que motivou divergências matemáticas agudas que se manifestaram inflando ligeiramente a taxa de erro para o **MAE de 0.6111**.
 
-Trabalhos futuros deverão focar-se no ajuste fino pós-quantização (post-quantization calibration) utilizando datasets exclusivamente lusitanos, visando mitigar os artefactos identificados nas camadas de normalização e assegurar que o viés linguístico não penalize as formas mais sofisticadas do Português de Portugal.
+### 4.2. Colapso Cultural e Alucinações Graves no Modelo Q2_K
+Se a métrica divergiu nas saudações, o `HITL.csv` demonstra que, nos testes críticos e com densidade de conhecimento, as notações em pt-PT convergiram perfeitamente. O nível de compressão extrema Q2_K evidenciou falências morfológicas e geográficas destrutivas que tanto humano como juiz sancionaram ativamente:
+* **Intrusão do Português do Brasil:** No índice A_Q2_40 (receita de *strata*), o humano aponta o erro: *"paes de sal é pt-br"* (o termo local é carcaça ou papo seco). No índice A_Q2_19 o humano castiga o termo "se move" por desvio da sintaxe europeia, juntamente com o barbarismo *"empurhar"*.
+* **Alucinações Factuais e Lógicas:** A degradação destruiu o conhecimento espacial do modelo, culminando no erro flagrante do índice A_Q2_18, com a observação *"sonara não existe | confundiu com sanara nos EUA. Anulou quase td a resposta"*. De igual modo, no índice A_Q2_6 documentam-se falhas basilares na escala do tempo da Terra (*"hadeano não é o mais curto | paleo não é o mais longo"*), ou respostas totalmente bizarras de interações ecológicas, como *"o tubarão branco [...] pode ser ameaçado por baleias [...] que afundam navios"* (A_Q2_11).
+
+### 4.3. Opinião Científica e Robustez do Avaliador
+Esta análise permite inferir um juízo firme e seguro. O facto de o juiz LLM atritar nas avaliações puramente curtas não obscurece de forma alguma o rigor das suas notações complexas. O Índice Linear Weighted Cohen's Kappa (\\(k\\)) calculado de **0.6102** atua como fiel de balança. Este valor é considerado academicamente como um "acordo substancial/forte", sendo capaz de filtrar flutuações e viés ocasional. Tal facto credibiliza indiscutivelmente a validade estatística e sintática deste *pipeline* avaliativo no mapeamento das subtilezas exigidas na avaliação dos Testes de Tradução (Teste B) e Testes de Reescrita de Tom (Teste C).
+
+
+## 5. Conclusão
+
+O presente *benchmarking* contribui de forma decisiva para desbravar a barreira existente na avaliação dos Modelos de Linguagem para o Português de Portugal. Confirma-se empiricamente que o modelo AMALIA-9B, quando submetido a níveis de quantização equilibrada de média densidade (tais como o Q4_K_M), apresenta um *trade-off* excecionalmente positivo, salvaguardando quer a sua estrutura lógica quer as nuances sintáticas cruciais do panorama lusitano em Portugal continental sem necessitar do peso estático de 16-bits. 
+
+No que tange ao esforço de validação sistemática, a integração do escrutínio especialista *Human-in-the-Loop* consolidou categoricamente que o uso ponderado de um *LLM-as-a-Judge*, sujeito aos devidos constrangimentos no *prompt*, emula com fiabilidade de coeficiente forte (\\(k = 0.61\\)) a capacidade humana de detetar idiomatismos intrusos (pt-BR) ou lapsos conceptuais catastróficos perante dados com degradação (como em Q2_K). Com as limitações de ruído social de curtas mensagens de saudação devidamente reconhecidas e isoladas, conclui-se que o presente protocolo avaliativo é metodologicamente seguro, célere e rigoroso para aplicações de modelagem à escala na variante do Português Europeu.
