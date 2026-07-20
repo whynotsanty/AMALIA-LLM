@@ -109,7 +109,7 @@ Justificação da Avaliação:
 
 ---
 
-## 📈 Sumário do Comportamento de Degradação (Resultados)
+## 📈 Resultados do Comportamento de Degradação
 
 A avaliação conjunta das duas dimensões de teste revelou um perfil de degradação muito consistente entre a integridade matemática dos pesos e o comportamento qualitativo:
 
