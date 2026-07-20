@@ -6,7 +6,6 @@
 **Abstract:** The deployment of Large Language Models (LLMs) in edge computing scenarios requires compression techniques. However, aggressive quantization compromises linguistic fidelity, a critical challenge in variants like European Portuguese (pt-PT). This paper presents the benchmarking of the AMALIA-9B model under six quantization levels (BF16 to Q2_K). The evaluation spans hardware metrics (Throughput and AvgLoss) and perplexity on the PorTEXTO dataset, crossed with an LLM-as-a-Judge pipeline engineered with 3-shot Length-Diverse prompting. To ensure analytical rigor, the NPM (Normalized Preferred Metric) was used to eliminate the random guessing effect in exams. The judge was validated through a Human-in-the-Loop ([HITL.csv](Resultados/HITL.csv)) protocol, yielding a strong statistical alignment (Pearson = 0.7590). Qualitative analysis documents the progressive degradation of the model: from the introduction of semantic loops at the Q3_K_M level to total reasoning collapse, hallucinations, and dialectal intrusion (pt-BR) at the 2-bit boundary.
 
 
-
 ## 1. Introdução
 
 A adoção generalizada de Grandes Modelos de Linguagem (LLMs) impõe constrangimentos proibitivos de armazenamento e latência de inferência. Para viabilizar a execução de modelos como o AMALIA-9B em ambientes locais, a comunidade tem adotado técnicas de compressão por quantização pós-treino (PTQ), reduzindo formatos de precisão de 16-bits (BF16) para formatos quantizados (Q8_0, Q4_K_M ou o extremo Q2_K).
