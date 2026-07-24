@@ -4,3 +4,4 @@
 
 - Ver aleatoriedade
 
+- Pegar na totalidade do trabalho e mete la no doc LNCS 
