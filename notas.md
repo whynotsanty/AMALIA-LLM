@@ -3,3 +3,6 @@
 - Fazer artigo cientifico LNCS
 
 - Ver aleatoriedade
+
+- stor ferias durante agosto
+
