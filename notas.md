@@ -4,5 +4,3 @@
 
 - Ver aleatoriedade
 
-- stor ferias durante agosto
-
