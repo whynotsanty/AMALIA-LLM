@@ -1,4 +1,4 @@
-- To do após reunião: 
+- Passos a seguir após reunião: 
 
 
 
