@@ -4,4 +4,4 @@
 
 - A fazer paper para entregar ate ao final do mês
 
-- maybe termino hj
+- terminei agora falta a eduarda fazer o seu trabalho
