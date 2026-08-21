@@ -4,4 +4,4 @@
 
 - A fazer paper para entregar ate ao final do mês
 
-- terminei agora falta a eduarda 
+- terminei agora falta a eduarda fazer
