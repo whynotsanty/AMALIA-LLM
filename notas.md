@@ -7,3 +7,5 @@
 - Falar com a Eduarda para perceber quando ela vai fazer a parte dela
 
 - Mandar ao prof
+
+-
