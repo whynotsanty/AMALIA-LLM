@@ -4,4 +4,4 @@
 
 - A fazer paper para entregar ate ao final do mês
 
-- Falta parte da Eduarda
+- Falar com a Eduarda para perceber quando ela vai fazer a parte dela
