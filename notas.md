@@ -6,4 +6,4 @@
 
 - Eduarda já está a fazer a parte dela
 
-- Mandar ao Prof
+- Mandar ao Prof amanha
