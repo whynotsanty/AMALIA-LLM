@@ -6,3 +6,4 @@
 
 - Eduarda já está a fazer a parte dela
 
+- Já enviamos mail ao stor com a primeira versao
