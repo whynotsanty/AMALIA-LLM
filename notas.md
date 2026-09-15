@@ -6,6 +6,4 @@
 
 - Eduarda já está a fazer a parte dela
 
-- Já enviamos mail ao stor com a primeira versao
-
-- esperar para saber feedback
+- Prof ja respondeu ao email e disse que vai ver logo que possa
