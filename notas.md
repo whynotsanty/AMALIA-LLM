@@ -4,6 +4,4 @@
 
 - A fazer paper para entregar ate ao final do mês
 
-- Eduarda já está a fazer a parte dela
-
 - Prof ja respondeu ao email e disse que vai ver logo que possa
