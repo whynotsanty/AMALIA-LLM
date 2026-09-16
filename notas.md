@@ -5,3 +5,6 @@
 - A fazer paper para entregar ate ao final do mês
 
 - Prof ja respondeu ao email e disse que vai ver logo que possa
+
+- feedback positivo por parte do prof
+
