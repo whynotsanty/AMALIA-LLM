@@ -9,3 +9,5 @@
 - feedback positivo por parte do prof
 
 - esperar pelo feedback final do prof 
+
+- still waiting
