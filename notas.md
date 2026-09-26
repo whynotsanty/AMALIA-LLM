@@ -11,3 +11,5 @@
 - esperar pelo feedback final do prof 
 
 - still waiting
+
+- ainda a espera
